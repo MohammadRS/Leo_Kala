@@ -13,3 +13,18 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\D
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.deps.json
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\bin\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csprojAssemblyReference.cache
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb
