@@ -14,7 +14,6 @@ C:\Users\P\Desktop\Leo_Kala\Leo_Kala\0_Framework\bin\Debug\net5.0\0_Framework.de
 C:\Users\P\Desktop\Leo_Kala\Leo_Kala\0_Framework\bin\Debug\net5.0\0_Framework.dll
 C:\Users\P\Desktop\Leo_Kala\Leo_Kala\0_Framework\bin\Debug\net5.0\ref\0_Framework.dll
 C:\Users\P\Desktop\Leo_Kala\Leo_Kala\0_Framework\bin\Debug\net5.0\0_Framework.pdb
-C:\Users\P\Desktop\Leo_Kala\Leo_Kala\0_Framework\obj\Debug\net5.0\0_Framework.csprojAssemblyReference.cache
 C:\Users\P\Desktop\Leo_Kala\Leo_Kala\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\P\Desktop\Leo_Kala\Leo_Kala\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
 C:\Users\P\Desktop\Leo_Kala\Leo_Kala\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
