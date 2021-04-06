@@ -1,23 +1,28 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductAgg;
+
 
 namespace ShopManagement.Infrastructure.EFCore.Mapping
 {
-    public class ProductCategoryMapping : IEntityTypeConfiguration<ProductCategory>
+    public class ProductMapping : IEntityTypeConfiguration<Product>
     {
-        public void Configure(EntityTypeBuilder<ProductCategory> builder)
+        public void Configure(EntityTypeBuilder<Product> builder)
         {
-            builder.ToTable("ProductCategories");
+            builder.ToTable("Products");
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Name)
                 .HasMaxLength(255)
                 .IsRequired();
 
-            builder.Property(x => x.Description)
-                .HasMaxLength(500);
+            builder.Property(x => x.Code)
+                .HasMaxLength(15)
+                .IsRequired();
+
+            builder.Property(x => x.ShortDescription)
+                .HasMaxLength(500)
+                .IsRequired();
 
             builder.Property(x => x.Picture)
                 .HasMaxLength(1000);
@@ -29,7 +34,7 @@ namespace ShopManagement.Infrastructure.EFCore.Mapping
                 .HasMaxLength(500);
 
             builder.Property(x => x.Keywords)
-                .HasMaxLength(80)
+                .HasMaxLength(100)
                 .IsRequired();
 
             builder.Property(x => x.MetaDescription)
@@ -37,12 +42,16 @@ namespace ShopManagement.Infrastructure.EFCore.Mapping
                 .IsRequired();
 
             builder.Property(x => x.Slug)
-                .HasMaxLength(300)
+                .HasMaxLength(500)
                 .IsRequired();
 
-            builder.HasMany(x => x.Products)
-               .WithOne(x => x.Category)
-               .HasForeignKey(x => x.CategoryId);
+            builder.HasOne(x => x.Category)
+                .WithMany(x => x.Products)
+                .HasForeignKey(x => x.CategoryId);
+
+            //builder.HasMany(x => x.ProductPictures)
+            //    .WithOne(x => x.Product)
+            //    .HasForeignKey(x => x.ProductId);
         }
     }
 }

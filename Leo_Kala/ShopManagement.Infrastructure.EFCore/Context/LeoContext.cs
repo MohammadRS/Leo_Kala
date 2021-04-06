@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Infrastructure.EFCore.Mapping;
 using System;
@@ -16,7 +17,9 @@ namespace ShopManagement.Infrastructure.EFCore.Context
                 
         }
 
+        public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
+       
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
