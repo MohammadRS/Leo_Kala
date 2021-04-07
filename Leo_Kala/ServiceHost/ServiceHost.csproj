@@ -12,6 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Pages\Admin\Shop\ProductPictures\Create.cshtml" />
+    <None Include="Pages\Admin\Shop\ProductPictures\Edit.cshtml" />
+    <None Include="Pages\Admin\Shop\ProductPictures\Index.cshtml" />
     <None Include="wwwroot\AdminTheme\asset\css\fonts\iran.oft" />
     <None Include="wwwroot\AdminTheme\asset\css\fonts\iran.svg" />
     <None Include="wwwroot\AdminTheme\asset\fonts\fontawesome-webfont.svg" />

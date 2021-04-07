@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "24yoQwv8G4MpDoOmKw/NJg/pT4fqyuxrsgxjxGGlqGvsxRhCvJwhM8RH1Dn/UCEDwXRoOmkbRi1bofiUs4jw0w==",
+  "dgSpecHash": "95thjZvRLfNyFgCdxNPK4GKboOnfMse4hrlOEpfjW7aVSGak9vsMgijpJhMirNLhUb93VUIHy+BGDio8lBBptA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\P\\Desktop\\Leo_Kala\\Leo_Kala\\ServiceHost\\ServiceHost.csproj",
+  "projectFilePath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\P\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\P\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
