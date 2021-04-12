@@ -25,11 +25,13 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ref\ShopManagement.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\0_Framework.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\0_Framework.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.pdb
@@ -44,5 +46,3 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.dll
-E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.pdb
