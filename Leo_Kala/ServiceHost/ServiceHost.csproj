@@ -12,6 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Pages\Admin\Discounts\CustomerDiscounts\Create.cshtml" />
+    <None Include="Pages\Admin\Discounts\CustomerDiscounts\Edit.cshtml" />
+    <None Include="Pages\Admin\Discounts\CustomerDiscounts\Index.cshtml" />
     <None Include="Pages\Admin\Shop\ProductPictures\Create.cshtml" />
     <None Include="Pages\Admin\Shop\ProductPictures\Edit.cshtml" />
     <None Include="Pages\Admin\Shop\ProductPictures\Index.cshtml" />
@@ -1153,13 +1156,13 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.4">
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.4">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
@@ -1169,6 +1172,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\01_LampshadeQuery\01_LampshadeQuery.csproj" />
+    <ProjectReference Include="..\DiscountManagement.Application.Contract\DiscountManagement.Application.Contract.csproj" />
+    <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Application.Contracts\ShopManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
   </ItemGroup>
