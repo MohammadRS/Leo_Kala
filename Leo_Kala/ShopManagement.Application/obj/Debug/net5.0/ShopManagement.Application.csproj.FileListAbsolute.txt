@@ -35,3 +35,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csprojAssemblyReference.cache
