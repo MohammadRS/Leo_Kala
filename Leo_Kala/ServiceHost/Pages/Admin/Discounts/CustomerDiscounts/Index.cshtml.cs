@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using System.Collections.Generic;
 
-namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
+namespace ServiceHost.Pages.Admin.Discounts.CustomerDiscounts
 {
     //[Authorize(Roles = Roles.Administator)]
     public class IndexModel : PageModel

@@ -12,6 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Create.cshtml" />
+    <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Edit.cshtml" />
+    <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Index.cshtml" />
     <None Include="Pages\Admin\Discounts\CustomerDiscounts\Create.cshtml" />
     <None Include="Pages\Admin\Discounts\CustomerDiscounts\Edit.cshtml" />
     <None Include="Pages\Admin\Discounts\CustomerDiscounts\Index.cshtml" />
