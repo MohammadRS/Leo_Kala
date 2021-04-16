@@ -18,6 +18,12 @@
     <None Include="Pages\Admin\Discounts\CustomerDiscounts\Create.cshtml" />
     <None Include="Pages\Admin\Discounts\CustomerDiscounts\Edit.cshtml" />
     <None Include="Pages\Admin\Discounts\CustomerDiscounts\Index.cshtml" />
+    <None Include="Pages\Admin\Inventory\Create.cshtml" />
+    <None Include="Pages\Admin\Inventory\Edit.cshtml" />
+    <None Include="Pages\Admin\Inventory\Increase.cshtml" />
+    <None Include="Pages\Admin\Inventory\Index.cshtml" />
+    <None Include="Pages\Admin\Inventory\OperationLog.cshtml" />
+    <None Include="Pages\Admin\Inventory\Reduce.cshtml" />
     <None Include="Pages\Admin\Shop\ProductPictures\Create.cshtml" />
     <None Include="Pages\Admin\Shop\ProductPictures\Edit.cshtml" />
     <None Include="Pages\Admin\Shop\ProductPictures\Index.cshtml" />
@@ -1178,6 +1184,8 @@
     <ProjectReference Include="..\01_LampshadeQuery\01_LampshadeQuery.csproj" />
     <ProjectReference Include="..\DiscountManagement.Application.Contract\DiscountManagement.Application.Contract.csproj" />
     <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Application.Contract\InventoryManagement.Application.Contract.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Application.Contracts\ShopManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
   </ItemGroup>
