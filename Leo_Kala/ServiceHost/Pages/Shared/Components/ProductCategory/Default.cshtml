@@ -1,0 +1,34 @@
+﻿@model List<_01_LampshadeQuery.Contracts.ProductCategory.ProductCategoryQueryModel>
+
+
+<div class="adplacement-container-row">
+    @foreach (var item in Model)
+    {
+        <div class="col-6 col-lg-3 pr">
+            <a asp-page="/ProductCategory" class="adplacement-item mb-4" asp-route-id="@item.Slug">
+                <div class="adplacement-sponsored_box">
+                    <img src="~/ProductPictures/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle">
+                </div>
+            </a>
+        </div>
+    }
+
+    <!-- ProductCategoryWithProduct---------------------------------->
+    @await Component.InvokeAsync("ProductCategoryWithProduct")
+    <!-- ProductCategoryWithProduct---------------------------------->
+
+    <div class="col-6 col-lg-6 pr">
+        <a href="#" class="adplacement-item">
+            <div class="adplacement-sponsored_box">
+                <img src="~/Theme/assets/images/adplacement/a-9.jpg">
+            </div>
+        </a>
+    </div>
+    <div class="col-6 col-lg-6 pr">
+        <a href="#" class="adplacement-item">
+            <div class="adplacement-sponsored_box">
+                <img src="~/Theme/assets/images/adplacement/a-11.jpg">
+            </div>
+        </a>
+    </div>
+</div>
