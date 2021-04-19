@@ -19,6 +19,7 @@ namespace _01_LampshadeQuery.Query
         {
             return _context.Slides.Where(x => x.IsRemoved == false).Select(x => new SlideQueryModel
             {
+                Id = x.Id,
                 Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,

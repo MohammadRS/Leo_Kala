@@ -1,4 +1,5 @@
-﻿using _01_LampshadeQuery.Contracts.ProductCategory;
+﻿using _01_LampshadeQuery.Contracts.Product;
+using _01_LampshadeQuery.Contracts.ProductCategory;
 using _01_LampshadeQuery.Contracts.Slide;
 using _01_LampshadeQuery.Query;
 using Microsoft.EntityFrameworkCore;
@@ -47,8 +48,8 @@ namespace ShopManagement.Configuration
             //services.AddTransient<IShopAccountAcl, ShopAccountAcl>();
 
             services.AddTransient<ISlideQuery, SlideQuery>();
-            //services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
-            //services.AddTransient<IProductQuery, ProductQuery>();
+            services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+            services.AddTransient<IProductQuery, ProductQuery>();
             //services.AddTransient<ICartCalculatorService, CartCalculatorService>();
 
             //services.AddTransient<IPermissionExposer, ShopPermissionExposer>();

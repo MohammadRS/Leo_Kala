@@ -27,6 +27,12 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Configuration.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\01_LampshadeQuery.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.dll
@@ -37,6 +43,12 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.csprojAssemblyReference.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.AssemblyInfoInputs.cache
