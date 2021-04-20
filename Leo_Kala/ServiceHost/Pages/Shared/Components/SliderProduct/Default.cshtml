@@ -1,4 +1,4 @@
-﻿@*@model List<_01_LampshadeQuery.Contracts.Slide.SlideQueryModel>*@
+﻿@model List<_01_LampshadeQuery.Contracts.Product.ProductQueryModel>
 
 <div class="slider-widget-products slider-content-tabs pr-0 pl-0">
     <div class="widget widget-product card slider-content-tabs pr-0 pl-0">
@@ -9,86 +9,34 @@
         <div class="product-carousel owl-carousel owl-theme owl-rtl owl-loaded owl-drag">
             <div class="owl-stage-outer">
                 <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1534px;">
-                    <div class="owl-item active tab-item" style="width: 296.75px; margin-left: 10px;">
-                        <div class="item">
-                            <a href="#" class="d-block hover-img-link">
-                                <img src="assets/images/slider-product/boxing.jpg" class="img-fluid" alt="">
-                            </a>
-                            <h2 class="post-title">
-                                <a href="#">
-                                    تی شرت ورزشی نخی مردانه فلوریزا طرح بوکس کد  boxing 002M تیشرت
+                    @foreach (var product in Model)
+                    {
+                        <div class="owl-item active tab-item" style="width: 296.75px; margin-left: 10px;">
+
+                            <div class="item">
+                                <a asp-page="/Product" asp-route-id="@product.Slug" class="d-block hover-img-link">
+                                    <img src="~/ProductPictures/@product.Picture" class="img-fluid" alt="@product.PictureAlt" title="@product.PictureTitle">
                                 </a>
-                            </h2>
-                            <div class="price">
-                                <del><span>50,000<span>تومان</span></span></del>
-                                <ins><span>40,000<span>تومان</span></span></ins>
+                                <h2 class="post-title">
+                                    <a asp-page="/Product" asp-route-id="@product.Slug">
+                                        @product.Name
+                                    </a>
+                                </h2>
+                                <div class="price">
+                                    @if (product.HasDiscount)
+                                    {
+                                        <del><span>@product.Price<span>تومان</span></span></del>
+                                        <ins><span>@product.PriceWithDiscount<span>تومان</span></span></ins>
+                                    }
+                                    else
+                                    {
+                                        <ins><span>@product.Price<span>تومان</span></span></ins>
+                                    }
+                                </div>
                             </div>
+
                         </div>
-                    </div>
-                    <div class="owl-item active tab-item" style="width: 296.75px; margin-left: 10px;">
-                        <div class="item">
-                            <a href="#" class="d-block hover-img-link">
-                                <img src="assets/images/slider-product/btt.jpg" class="img-fluid" alt="">
-                            </a>
-                            <h2 class="post-title">
-                                <a href="#">
-                                    تی شرت آستین کوتاه تارکان کد btt 152-1
-                                </a>
-                            </h2>
-                            <div class="price">
-                                <del><span>68,000<span>تومان</span></span></del>
-                                <ins><span>58,000<span>تومان</span></span></ins>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active tab-item" style="width: 296.75px; margin-left: 10px;">
-                        <div class="item">
-                            <a href="#" class="d-block hover-img-link">
-                                <img src="assets/images/slider-product/t-shirt-1.jpg" class="img-fluid" alt="">
-                            </a>
-                            <h2 class="post-title">
-                                <a href="#">
-                                    تی شرت به رسم طرح دریم کچر کد 558
-                                </a>
-                            </h2>
-                            <div class="price">
-                                <del><span>42,000<span>تومان</span></span></del>
-                                <ins><span>32,000<span>تومان</span></span></ins>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item active tab-item" style="width: 296.75px; margin-left: 10px;">
-                        <div class="item">
-                            <a href="#" class="d-block hover-img-link">
-                                <img src="assets/images/slider-product/t-shirt-2.jpg" class="img-fluid" alt="">
-                            </a>
-                            <h2 class="post-title">
-                                <a href="#">
-                                    تیشرت آستین بلند مردانه پاتیلوک طرح Killed مدل 330451
-                                </a>
-                            </h2>
-                            <div class="price">
-                                <del><span>99,000<span>تومان</span></span></del>
-                                <ins><span>88,000<span>تومان</span></span></ins>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-item tab-item" style="width: 296.75px; margin-left: 10px;">
-                        <div class="item">
-                            <a href="#" class="d-block hover-img-link">
-                                <img src="assets/images/slider-product/t-shirt-3.jpg" class="img-fluid" alt="">
-                            </a>
-                            <h2 class="post-title">
-                                <a href="#">
-                                    تی شرت مردانه زی مدل 153118473
-                                </a>
-                            </h2>
-                            <div class="price">
-                                <del><span>90,000<span>تومان</span></span></del>
-                                <ins><span>85,000<span>تومان</span></span></ins>
-                            </div>
-                        </div>
-                    </div>
+                    }
                 </div>
             </div>
             <div class="owl-nav">

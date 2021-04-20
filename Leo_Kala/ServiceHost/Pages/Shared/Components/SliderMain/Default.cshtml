@@ -1,28 +1,23 @@
 ﻿@model List<_01_LampshadeQuery.Contracts.Slide.SlideQueryModel>
 
+
 <div class="slider-main-container d-block">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators carousel-indicators-ul">
-            <li class="carousel-indicators-item active" data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-                <span>موبایل</span>
-            </li>
-            <li class="carousel-indicators-item" data-target="#carouselExampleIndicators" data-slide-to="1">
-                <span>لباس مردانه</span>
-            </li>
-            <li class="carousel-indicators-item" data-target="#carouselExampleIndicators" data-slide-to="2">
-                <span>پاور پانک</span>
-            </li>
+        <ol class="carousel-indicators">
+            @foreach (var slide in Model)
+            {
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="@(Model.First() == slide ? "active" : "")"></li>
+            }
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/Theme/assets/images/slider-main/sm-1.jpg" class="d-block w-100" alt="...">
+            @foreach (var slide in Model)
+            {
+            <div class="carousel-item @(Model.First() == slide ? "active" : "")">
+                <a class="hero-slider-button" href="@slide.Link">
+                    <img href="@slide.Link" src="~/ProductPictures/@slide.Picture" class="d-block w-100" alt="@slide.PictureAlt" title="@slide.PictureTitle">
+                </a>
             </div>
-            <div class="carousel-item">
-                <img src="/Theme/assets/images/slider-main/sm-4.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/Theme/assets/images/slider-main/sm-5.jpg" class="d-block w-100" alt="...">
-            </div>
+            }
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="fa fa-angle-left" aria-hidden="true"></span>
