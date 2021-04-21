@@ -194,6 +194,7 @@ namespace _01_LampshadeQuery.Query
 
             return products;
         }
+
         //public List<CartItem> CheckInventoryStatus(List<CartItem> cartItems)
         //{
         //    var inventory = _inventoryContext.Inventory.ToList();

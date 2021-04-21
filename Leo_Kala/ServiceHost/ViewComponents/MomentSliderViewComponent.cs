@@ -1,4 +1,5 @@
-﻿using _01_LampshadeQuery.Contracts.Slide;
+﻿using _01_LampshadeQuery.Contracts.Product;
+using _01_LampshadeQuery.Contracts.Slide;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,9 +10,15 @@ namespace ServiceHost.ViewComponents
 {
     public class MomentSliderViewComponent : ViewComponent
     {
+        private readonly IProductQuery _productQuery;
+        public MomentSliderViewComponent(IProductQuery productQuery)
+        {
+            _productQuery = productQuery;
+        }
         public IViewComponentResult Invoke()
         {
-            return View();
+            var products = _productQuery.GetLatestArrivals();
+            return View(products);
         }
     }
 }

@@ -5,7 +5,7 @@
     @foreach (var item in Model)
     {
         <div class="col-6 col-lg-3 pr">
-            <a asp-page="/ProductCategory" class="adplacement-item mb-4" asp-route-id="@item.Slug">
+            <a asp-page="/ProductCategory" asp-route-id="@item.Slug" class="adplacement-item mb-4">
                 <div class="adplacement-sponsored_box">
                     <img src="~/ProductPictures/@item.Picture" alt="@item.PictureAlt" title="@item.PictureTitle">
                 </div>

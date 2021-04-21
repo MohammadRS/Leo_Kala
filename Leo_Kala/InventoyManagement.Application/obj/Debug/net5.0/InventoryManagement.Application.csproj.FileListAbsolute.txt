@@ -10,6 +10,7 @@ E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\bin\Debug\n
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\bin\Debug\net5.0\0_Framework.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csprojAssemblyReference.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfoInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfo.cs

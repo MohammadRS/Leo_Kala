@@ -1,5 +1,82 @@
 ﻿@using _0_Framework.Infrastructure
 @inject _0_Framework.Application.IAuthHelper AuthHelper;
 @{
-//var currentAccout = AuthHelper.CurrentAccountInfo();
+    var currentAccout = AuthHelper.CurrentAccountInfo();
 }
+<div class="left side-menu">
+    <div class="sidebar-inner slimscrollleft">
+        <div class="user-details">
+            <div class="pull-right">
+                <img src="~/AdminTheme/assets/images/users/avatar-1.jpg" alt="" class="thumb-md img-circle">
+            </div>
+            <div class="user-info">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">@currentAccout.Fullname <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile<div class="ripple-wrapper"></div></a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-lock"></i> Lock screen</a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> Logout</a></li>
+                    </ul>
+                </div>
+
+                <p class="text-muted m-0">@currentAccout.Role</p>
+            </div>
+        </div>
+        <!--- Divider -->
+        <div id="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="~/Admin/Index" class="waves-effect active"><i class="md md-home"></i><span> داشبورد </span></a>
+                </li>
+                <li>
+                    <a href="~/Admin/Comments/Index" class="waves-effect"><i class="md md-home"></i><span> کامنت ها </span></a>
+                </li>
+                
+
+                    <li>
+                        <a href="~/Admin/Inventory/Index" class="waves-effect"><i class="md md-home"></i><span> انبارداری </span></a>
+                    </li>
+                    <li>
+                        <a href="~/Admin/Shop/Orders/Index" class="waves-effect"><i class="md md-home"></i><span> سفارشات </span></a>
+                    </li>
+                    <li class="has_sub">
+                        <a class="waves-effect"><i class="md md-mail"></i><span> فروشگاه </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="~/Admin/Shop/Slides/Index">اسلایدر</a></li>
+                            <li><a href="~/Admin/Shop/ProductCategories/Index">گروه محصولات</a></li>
+                            <li><a href="~/Admin/Shop/Products/Index">محصولات</a></li>
+                            <li><a href="~/Admin/Shop/ProductPictures/Index">عکس محصولات</a></li>
+                        </ul>
+                    </li>
+                    <li class="has_sub">
+                        <a class="waves-effect"><i class="md md-mail"></i><span> سیستم تخفیفات </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="~/Admin/Discounts/CustomerDiscounts/Index">تخفیف مشتری</a></li>
+                            <li><a href="~/Admin/Discounts/ColleagueDiscounts/Index">تخفیف همکاری</a></li>
+                        </ul>
+                    </li>
+                    <li class="has_sub">
+                        <a class="waves-effect"><i class="md md-mail"></i><span> سیستم کاربران </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="~/Admin/Accounts/Account/Index">کاربران</a></li>
+                            <li><a href="~/Admin/Accounts/Role/Index">نقش ها</a></li>
+                        </ul>
+                    </li>
+                <li class="has_sub">
+                    <a class="waves-effect"><i class="md md-mail"></i><span> سیستم بلاگینگ </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                    <ul class="list-unstyled">
+                        <li><a href="~/Admin/Blog/Articles/Index">مقالات</a></li>
+                        <li><a href="~/Admin/Blog/ArticleCategories/Index">گروه مقالات</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a ahref="~/Admin/Account" asp-page-handler="Logout" class="waves-effect active"><i class="fa fa-sign-out"></i><span> خروج </span></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
