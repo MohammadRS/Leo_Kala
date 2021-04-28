@@ -384,7 +384,6 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\A
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductArchive\Index.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductCategory.cshtml.g.cs
-E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product\Index.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\CategoryMenu\Default.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Header\Default.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\MomentSlider\Default.cshtml.g.cs
@@ -406,3 +405,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.d
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductDetail.cshtml.g.cs
