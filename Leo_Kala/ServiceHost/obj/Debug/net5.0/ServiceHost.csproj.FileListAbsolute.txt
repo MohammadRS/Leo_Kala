@@ -406,3 +406,13 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ref\ServiceHo
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductDetail.cshtml.g.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.Configuration.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.Configuration.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
