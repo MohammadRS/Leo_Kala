@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ServiceHost\\ServiceHost.csproj": {}
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ServiceHost\\ServiceHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj",
+        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\obj\\",
+        "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ServiceHost\\ServiceHost.csproj": {
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ServiceHost\\ServiceHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ServiceHost\\ServiceHost.csproj",
+        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ServiceHost\\ServiceHost.csproj",
         "projectName": "ServiceHost",
-        "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ServiceHost\\ServiceHost.csproj",
+        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ServiceHost\\ServiceHost.csproj",
         "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ServiceHost\\obj\\",
+        "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ServiceHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -114,11 +114,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
               }
             }
           }
@@ -196,14 +196,14 @@
         }
       }
     },
-    "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\obj\\",
+        "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -223,8 +223,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -263,14 +263,14 @@
         }
       }
     },
-    "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj",
         "projectName": "ShopManagement.Application",
-        "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj",
         "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application\\obj\\",
+        "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -290,14 +290,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -330,14 +330,14 @@
         }
       }
     },
-    "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
         "projectName": "ShopManagement.Configuration",
-        "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
         "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Configuration\\obj\\",
+        "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -357,20 +357,20 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application\\ShopManagement.Application.csproj"
               },
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               },
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -409,14 +409,14 @@
         }
       }
     },
-    "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\obj\\",
+        "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -436,11 +436,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj"
               },
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -473,14 +473,14 @@
         }
       }
     },
-    "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "projectName": "ShopManagement.Infrastructure.EFCore",
-        "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -500,8 +500,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }

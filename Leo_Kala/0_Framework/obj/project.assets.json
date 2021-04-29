@@ -1678,11 +1678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj",
+      "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj",
       "projectName": "0_Framework",
-      "projectPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\0_Framework.csproj",
+      "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj",
       "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P\\Desktop\\New folder\\Leo_Kala\\0_Framework\\obj\\",
+      "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
