@@ -1,4 +1,7 @@
 using _0_Framework.Application;
+using BlogManagement.Infrastructure.Configuration;
+using DiscountManagement.Configuration;
+using InventoryManagement.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -24,15 +27,18 @@ namespace ServiceHost
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddRazorPages();
+
             #region Context
             services.AddHttpContextAccessor();
             var connectionString = Configuration.GetConnectionString("LeoKala");
             #endregion
 
             ShopManagementBootstrapper.Configure(services, connectionString);
-            //DiscountManagementBootstrapper.Configure(services, connectionString);
-            //InventoryManagementBootstrapper.Configure(services, connectionString);
-            //BlogManagementBootstrapper.Configure(services, connectionString);
+            DiscountManagementBootstrapper.Configure(services, connectionString);
+            InventoryManagementBootstrapper.Configure(services, connectionString);
+            BlogManagementBootstrapper.Configure(services, connectionString);
             //CommentManagementBootstrapper.Configure(services, connectionString);
             //AccountManagementBootstrapper.Configure(services, connectionString);
 
@@ -44,19 +50,19 @@ namespace ServiceHost
             //services.AddTransient<ISmsService, SmsService>();
             //services.AddTransient<IEmailService, EmailService>();
 
-            services.Configure<CookiePolicyOptions>(options =>
-            {
-                options.CheckConsentNeeded = context => true;
-                options.MinimumSameSitePolicy = SameSiteMode.Lax;
-            });
+            //services.Configure<CookiePolicyOptions>(options =>
+            //{
+            //    options.CheckConsentNeeded = context => true;
+            //    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+            //});
 
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
-                {
-                    o.LoginPath = new PathString("/Account");
-                    o.LogoutPath = new PathString("/Account");
-                    o.AccessDeniedPath = new PathString("/AccessDenied");
-                });
+            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            //    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
+            //    {
+            //        o.LoginPath = new PathString("/Account");
+            //        o.LogoutPath = new PathString("/Account");
+            //        o.AccessDeniedPath = new PathString("/AccessDenied");
+            //    });
 
 
             //services.AddAuthorization(options =>
@@ -74,11 +80,11 @@ namespace ServiceHost
             //        builder => builder.RequireRole(new List<string> { Roles.Administrator }));
             //});
 
-            services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
-                builder
-                    .WithOrigins("https://localhost:44366/")
-                    .AllowAnyHeader()
-                    .AllowAnyMethod()));
+            //services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
+            //    builder
+            //        .WithOrigins("https://localhost:44366/")
+            //        .AllowAnyHeader()
+            //        .AllowAnyMethod()));
 
             //services.AddRazorPages()
             //    .AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
@@ -93,7 +99,7 @@ namespace ServiceHost
             //    .AddApplicationPart(typeof(InventoryController).Assembly)
             //    .AddNewtonsoftJson();
 
-            services.AddRazorPages();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -110,24 +116,34 @@ namespace ServiceHost
                 app.UseHsts();
             }
 
-            app.UseAuthentication();
-
-            app.UseHttpsRedirection();
-
-            app.UseStaticFiles();
-
-            app.UseCookiePolicy();
-
             app.UseRouting();
-
+            app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseCors("MyPolicy");
+            app.UseMvc();
+
+            //app.UseCors("MyPolicy");
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                  name: "areas",
+                  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+                );
+            });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
+            app.UseEndpoints(endpoints =>
+            {
                 endpoints.MapRazorPages();
-                endpoints.MapControllers();
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

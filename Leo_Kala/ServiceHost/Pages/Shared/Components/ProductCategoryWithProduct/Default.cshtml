@@ -1,0 +1,80 @@
+﻿@model List<_01_LampshadeQuery.Contracts.ProductCategory.ProductCategoryQueryModel>
+
+<div class="tab-count-product">
+    <section class="section-header-tab">
+        <div class="tab-scroll">
+            <ul class="tabs nav" id="myTab" role="tablist">
+                @foreach (var category in Model)
+                {
+                    <li class="tab-item nav-item">
+                        <a class="tab-link @(Model.First() == category ? "active" : "")" id="camera-tab-@category.Id" data-toggle="tab"
+                           href="#camera-@category.Id" role="tab" aria-controls="camera" aria-selected="true">@category.Name</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </section>
+    <div class="tab-content" id="myTabContent">
+
+        @foreach (var category in Model)
+        {
+            <div class="tab camera tab-pane fade show @(Model.First() == category ? "active" : "")" id="camera-@category.Id" role="tabpanel" aria-labelledby="camera-tab">
+                <div class="slider-widget-products slider-content-tabs pr-0 pl-0">
+
+                    <div class="widget widget-product card slider-content-tabs pr-0 pl-0">
+                        <div class="product-carousel owl-carousel owl-theme owl-rtl owl-loaded owl-drag">
+
+                            <div class="owl-stage-outer">
+
+                                <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2234px;">
+                                    @foreach (var product in category.Products)
+                                    {
+                                        <div class="owl-item active tab-item" style="width: 309.083px; margin-left: 10px;">
+
+                                            <div class="item">
+                                                <a asp-page="/ProductDetail" asp-route-id="@product.Slug" class="d-block hover-img-link">
+                                                    <img src="~/ProductPictures/@product.Picture" class="img-fluid" title="@product.PictureTitle" alt="@product.PictureAlt">
+                                                </a>
+                                                <h2 class="post-title">
+                                                    <a asp-page="/ProductDetail" asp-route-id="@product.Slug">
+                                                        @product.Name
+                                                    </a>
+                                                </h2>
+                                                <div class="price">
+                                                    @if (product.HasDiscount)
+                                                    {
+                                                        <del><span>@product.Price<span>تومان</span></span></del>
+                                                        <ins><span>@product.PriceWithDiscount<span>تومان</span></span></ins>
+                                                    }
+                                                    else
+                                                    {
+                                                        <ins><span>@product.Price<span>تومان</span></span></ins>
+                                                    }
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    }
+                                </div>
+
+                            </div>
+                            <div class="owl-nav">
+                                <button type="button" role="presentation" class="owl-prev disabled">
+                                    <i class="fa fa-angle-right"></i>
+                                </button>
+                                <button type="button" role="presentation" class="owl-next">
+                                    <i class="fa fa-angle-left"></i>
+                                </button>
+                            </div>
+                            <div class="owl-dots disabled"></div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

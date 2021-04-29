@@ -1,10 +1,71 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+//ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- sidebar------------------------->
+<div class="container-main">
+    <aside class="col-lg-3 col-md-3 col-xs-12 order-2 order-lg-2 pr sticky-sidebar">
+        <div class="sidebar-inner">
+            <div class="sidebar-main widget-banner widget card">
+                <!-- category-menu-------------------------->
+
+                @await Component.InvokeAsync("CategoryMenu")
+
+                <!-- moment-slider-------------------------->
+
+                @await Component.InvokeAsync("MomentSlider")
+
+                <!-- adplacement------------------------------->
+                <div class="adplacement-container-row adplacement-sidebar">
+                    <a href="#" class="adplacement-item">
+                        <div class="adplacement-sponsored_box">
+                            <img src="~/Theme/assets/images/adplacement/a-3.jpg">
+                        </div>
+                    </a>
+                    <a href="#" class="adplacement-item">
+                        <div class="adplacement-sponsored_box">
+                            <img src="~/Theme/assets/images/adplacement/a-10.jpg">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
 </div>
+<!-- sidebar-------------------------------->
+
+<!-- content-site--------------------------->
+<div class="container-main">
+    <aside class="col-lg-9 col-md-9 col-xs-12 order-2 order-lg-2 pl">
+
+        <!-- slider-main--------------------------->
+        @await Component.InvokeAsync("SliderMain")
+
+        <!-- slider-amazing------------------------->
+        @await Component.InvokeAsync("SliderAmazing")
+
+        <!-- ProductCategory--------------------------->
+        @await Component.InvokeAsync("ProductCategory")
+        <!-- ProductCategory--------------------------->
+
+
+
+        <!-- slider-product------------------------>
+        @await Component.InvokeAsync("SliderProduct")
+        <!-- slider-product------------------------>
+
+
+
+
+    </aside>
+</div>
+<!-- content-site--------------------------->
+<!-- scroll_Progress------------------------->
+<div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>
+<!-- scroll_Progress------------------------->

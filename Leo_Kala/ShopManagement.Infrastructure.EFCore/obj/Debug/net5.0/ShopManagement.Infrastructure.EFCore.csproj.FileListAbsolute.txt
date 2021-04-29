@@ -1,3 +1,25 @@
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.deps.json
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.runtimeconfig.json
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.runtimeconfig.dev.json
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ref\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.pdb
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.AssemblyInfo.cs
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.csproj.CopyComplete
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.EFCore.dll
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
+C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\obj\Debug\net5.0\ShopManagement.Infrastructure.EFCore.genruntimeconfig.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.deps.json
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.runtimeconfig.json
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.runtimeconfig.dev.json

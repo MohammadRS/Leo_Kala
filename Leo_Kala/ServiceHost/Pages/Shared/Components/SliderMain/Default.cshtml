@@ -1,0 +1,32 @@
+﻿@model List<_01_LampshadeQuery.Contracts.Slide.SlideQueryModel>
+
+
+<div class="slider-main-container d-block">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            @foreach (var slide in Model)
+            {
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="@(Model.First() == slide ? "active" : "")"></li>
+            }
+        </ol>
+        <div class="carousel-inner">
+            @foreach (var slide in Model)
+            {
+            <div class="carousel-item @(Model.First() == slide ? "active" : "")">
+                <a class="hero-slider-button" href="@slide.Link">
+                    <img href="@slide.Link" src="~/ProductPictures/@slide.Picture" class="d-block w-100" alt="@slide.PictureAlt" title="@slide.PictureTitle">
+                </a>
+            </div>
+            }
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
