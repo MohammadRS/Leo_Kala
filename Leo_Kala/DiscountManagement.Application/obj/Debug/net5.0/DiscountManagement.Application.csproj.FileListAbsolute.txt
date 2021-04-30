@@ -18,3 +18,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\n
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\ref\DiscountManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csprojAssemblyReference.cache
