@@ -30,4 +30,4 @@ namespace BlogManagement.Infrastructure.EFCore.Mappings
         }
     }
 }
-}
+
