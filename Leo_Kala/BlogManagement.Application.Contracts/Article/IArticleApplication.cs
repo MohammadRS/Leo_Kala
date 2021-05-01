@@ -11,7 +11,7 @@ namespace BlogManagement.Application.Contracts.Article
     {
         OperationResult Create(CreateArticle command);
         OperationResult Edit(EditArticle command);
-        EditArticle GetDetail(long id);
+        EditArticle GetDetails(long id);
         List<ArticleViewModel> Search(ArticleSearchModel searchModel);
     }
 }

@@ -68,7 +68,7 @@ namespace BlogManagement.Application
             return operation.Succedded();
         }
 
-        public EditArticle GetDetail(long id)
+        public EditArticle GetDetails(long id)
         {
             return _articleRepository.GetDetails(id);
         }
