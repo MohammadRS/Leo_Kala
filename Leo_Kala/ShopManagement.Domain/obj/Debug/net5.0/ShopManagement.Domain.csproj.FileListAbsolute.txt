@@ -31,4 +31,3 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\obj\Debug\net5.0\Sho
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csprojAssemblyReference.cache

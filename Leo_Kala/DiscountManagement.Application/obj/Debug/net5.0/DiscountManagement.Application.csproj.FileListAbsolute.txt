@@ -10,6 +10,7 @@ E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\bin\Debug\n
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\bin\Debug\net5.0\0_Framework.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csprojAssemblyReference.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfoInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.AssemblyInfo.cs
@@ -18,4 +19,3 @@ E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\n
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\ref\DiscountManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.csprojAssemblyReference.cache

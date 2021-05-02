@@ -1,0 +1,196 @@
+﻿@page "{id}"
+@model ServiceHost.Pages.Blog.ArticleModel
+@{
+    ViewData["Title"] = Model.Article.Title;
+    ViewData["keywords"] = Model.Article.Keywords;
+    ViewData["metaDescription"] = Model.Article.MetaDescription;
+}
+
+<div class="container-main">
+    <div class="d-block">
+        <div class="page-content page-row">
+            <div class="main-row">
+                <div id="breadcrumb">
+                    <i class="mdi mdi-home"></i>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a asp-page="/Blog/Index">خانه</a></li>
+                            <li class="breadcrumb-item"><a asp-page="/Blog/ArticleCategory" asp-route-id="@Model.Article.CategorySlug">@Model.Article.CategoryName</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">@Model.Article.Title</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="d-block">
+                    <div class="col-lg-9 col-md-8 col-xs-12 pr mt-3">
+                        <section class="blog-home">
+                            <article class="post-item">
+                                <header class="entry-header mb-3">
+                                    <div class="post-meta date">
+                                        <i class="mdi mdi-calendar-month"></i>1399/02/14
+                                    </div>
+                                    <div class="post-meta author">
+                                        <i class="mdi mdi-account-circle-outline"></i>
+                                        ارسال شده توسط <a href="#"> مدیریت </a>
+                                    </div>
+                                    <div class="post-meta category">
+                                        <i class="mdi mdi-tag"></i>
+                                        <a href="#">تگ ها </a> :
+                                        @foreach (var tag in Model.Article.KeywordList)
+                                        {
+                                            <a href="#">@tag ، </a>
+                                        }
+
+                                    </div>
+                                    <div class="post-meta Visit">
+                                        <i class="mdi mdi-eye"></i>
+                                        996 بازدید
+                                    </div>
+                                </header>
+                                <div class="post-thumbnail">
+                                    <img src="~/ProductPictures/@Model.Article.Picture" alt="@Model.Article.PictureAlt" title="@Model.Article.Title">
+                                </div>
+                                <div class="title">
+                                    <a href="#">
+                                        <h1 class="title-tag">@Model.Article.Title</h1>
+                                    </a>
+                                </div>
+                                <div class="content-blog">
+                                    @Html.Raw(Model.Article.Description)
+                                </div>
+                            </article>
+                            <div class="post-comments">
+                                <div class="comments-area">
+                                    <h2 class="comments-title">
+                                        <i class="fa fa-comment-o"></i>
+                                        نظرات کاربران
+                                        <p class="count-comment">253 نظر</p>
+                                    </h2>
+                                    <ol class="comment-list">
+                                        <li class="comment-even">
+                                            <div class="comment-body">
+                                                <header class="comment-meta">
+                                                    <div class="comment-author">
+                                                        <img src="assets/images/man.png" class="avator">
+                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
+                                                    </div>
+                                                </header>
+                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
+                                                <div class="reply text-left">
+                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="comment-even">
+                                            <div class="comment-body">
+                                                <header class="comment-meta">
+                                                    <div class="comment-author">
+                                                        <img src="assets/images/man.png" class="avator">
+                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
+                                                    </div>
+                                                </header>
+                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
+                                                <div class="reply text-left">
+                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="comment-even">
+                                            <div class="comment-body">
+                                                <header class="comment-meta">
+                                                    <div class="comment-author">
+                                                        <img src="assets/images/man.png" class="avator">
+                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
+                                                    </div>
+                                                </header>
+                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
+                                                <div class="reply text-left">
+                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="comment-even">
+                                            <div class="comment-body">
+                                                <header class="comment-meta">
+                                                    <div class="comment-author">
+                                                        <img src="assets/images/man.png" class="avator">
+                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
+                                                    </div>
+                                                </header>
+                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
+                                                <div class="reply text-left">
+                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="comment-even">
+                                            <div class="comment-body">
+                                                <header class="comment-meta">
+                                                    <div class="comment-author">
+                                                        <img src="assets/images/man.png" class="avator">
+                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
+                                                    </div>
+                                                </header>
+                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
+                                                <div class="reply text-left">
+                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <div class="form-comment">
+                                        <div class="col-md-12 col-sm-12">
+                                            <div class="form-ui">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <br>
+                                                        <br>
+                                                        <div class="form-row-title mb-2"> نام شما (اجباری)</div>
+                                                        <div class="form-row">
+                                                            <input class="input-ui pr-2" type="text" placeholder=" نام خود را بنویسید">
+                                                        </div>
+                                                        <br>
+                                                        <div class="form-row-title mb-2">عنوان نظر شما (اجباری)</div>
+                                                        <div class="form-row">
+                                                            <input class="input-ui pr-2" type="text" placeholder="عنوان نظر خود را بنویسید">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 mt-5">
+                                                        <div class="form-row-title mb-2">متن نظر شما (اجباری)</div>
+                                                        <div class="form-row">
+                                                            <textarea class="input-ui pr-2 pt-2" rows="5" placeholder="متن خود را بنویسید" style="height:120px;"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <div class="col-12 mt-5 px-0">
+                                                        <button class="btn comment-submit-button">
+                                                            ثبت نظر
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-12 pr mt-3 sticky-sidebar">
+                        <div class="shortcode-widget-area-sidebar">
+                            <section class="widget-posts">
+                                <div class="header-sidebar mb-3">
+                                    <h3>جدیدترین نوشته ها</h3>
+                                </div>
+                                <div class="content-sidebar">
+                                    @await Component.InvokeAsync("LatestArticles")
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

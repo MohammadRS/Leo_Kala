@@ -30,6 +30,7 @@
     <None Include="Pages\Admin\Shop\Slides\Create.cshtml" />
     <None Include="Pages\Admin\Shop\Slides\Edit.cshtml" />
     <None Include="Pages\Admin\Shop\Slides\Index.cshtml" />
+    <None Include="Pages\Shared\Components\LatestArticles\Default.cshtml" />
     <None Include="wwwroot\AdminTheme\asset\css\fonts\iran.oft" />
     <None Include="wwwroot\AdminTheme\asset\css\fonts\iran.svg" />
     <None Include="wwwroot\AdminTheme\asset\fonts\fontawesome-webfont.svg" />

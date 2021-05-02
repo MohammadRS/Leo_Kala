@@ -50,6 +50,7 @@ namespace ServiceHost
             //services.AddTransient<ISmsService, SmsService>();
             //services.AddTransient<IEmailService, EmailService>();
 
+
             //services.Configure<CookiePolicyOptions>(options =>
             //{
             //    options.CheckConsentNeeded = context => true;

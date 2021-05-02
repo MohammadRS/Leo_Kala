@@ -1,0 +1,22 @@
+﻿@model List<_01_LampshadeQuery.Contracts.Article.ArticleQueryModel>
+
+@foreach (var article in Model)
+{
+    <div class="item">
+        <div class="item-inner">
+            <div class="item-thumb">
+                <a asp-page="/Blog/Article" asp-route-id="@article.Slug" class="img-holder d-block">
+                    <img src="~/ProductPictures/@article.Picture" alt="@article.PictureAlt" title="@article.PictureTitle">
+                </a>
+            </div>
+            <div class="title">
+                <a asp-page="/Blog/Article" asp-route-id="@article.Slug">
+                    <h2 class="title-tag">@article.Title</h2>
+                </a>
+                <span class="post-date">
+                    @article.PublishDate
+                </span>
+            </div>
+        </div>
+    </div>
+}
