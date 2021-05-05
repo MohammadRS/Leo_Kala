@@ -1,0 +1,15 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\bin\Debug\net5.0\AccountManagement.ApplicationContracts.deps.json
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\bin\Debug\net5.0\AccountManagement.ApplicationContracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\bin\Debug\net5.0\ref\AccountManagement.ApplicationContracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\bin\Debug\net5.0\AccountManagement.ApplicationContracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\bin\Debug\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\bin\Debug\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\obj\Debug\net5.0\AccountManagement.ApplicationContracts.csprojAssemblyReference.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\obj\Debug\net5.0\AccountManagement.ApplicationContracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\obj\Debug\net5.0\AccountManagement.ApplicationContracts.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\obj\Debug\net5.0\AccountManagement.ApplicationContracts.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\obj\Debug\net5.0\AccountManagement.ApplicationContracts.csproj.CoreCompileInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\obj\Debug\net5.0\AccountManagement.ApplicationContracts.csproj.CopyComplete
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\obj\Debug\net5.0\AccountManagement.ApplicationContracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\obj\Debug\net5.0\ref\AccountManagement.ApplicationContracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.ApplicationContracts\obj\Debug\net5.0\AccountManagement.ApplicationContracts.pdb

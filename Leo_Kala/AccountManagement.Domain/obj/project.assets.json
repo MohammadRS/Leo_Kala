@@ -638,6 +638,20 @@
         "runtime": {
           "bin/placeholder/0_Framework.dll": {}
         }
+      },
+      "AccountManagement.ApplicationContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.4"
+        },
+        "compile": {
+          "bin/placeholder/AccountManagement.ApplicationContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AccountManagement.ApplicationContracts.dll": {}
+        }
       }
     }
   },
@@ -1682,11 +1696,17 @@
       "type": "project",
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
+    },
+    "AccountManagement.ApplicationContracts/1.0.0": {
+      "type": "project",
+      "path": "../AccountManagement.ApplicationContracts/AccountManagement.ApplicationContracts.csproj",
+      "msbuildProject": "../AccountManagement.ApplicationContracts/AccountManagement.ApplicationContracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "0_Framework >= 1.0.0"
+      "0_Framework >= 1.0.0",
+      "AccountManagement.ApplicationContracts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1722,6 +1742,9 @@
           "projectReferences": {
             "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
               "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj"
+            },
+            "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj": {
+              "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj"
             }
           }
         }

@@ -1298,9 +1298,19 @@
           "0_Framework.dll": {}
         }
       },
+      "AccountManagement.ApplicationContracts/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.4"
+        },
+        "runtime": {
+          "AccountManagement.ApplicationContracts.dll": {}
+        }
+      },
       "AccountManagement.Domain/1.0.0": {
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "AccountManagement.ApplicationContracts": "1.0.0"
         },
         "runtime": {
           "AccountManagement.Domain.dll": {}
@@ -2148,6 +2158,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "0_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.ApplicationContracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

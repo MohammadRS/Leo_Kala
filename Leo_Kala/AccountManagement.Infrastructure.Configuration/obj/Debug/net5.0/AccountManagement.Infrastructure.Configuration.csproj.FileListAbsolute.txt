@@ -20,3 +20,5 @@ E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.Configura
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\AccountManagement.Infrastructure.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.Configuration\obj\Debug\net5.0\AccountManagement.Infrastructure.Configuration.genruntimeconfig.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.ApplicationContracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.Configuration\bin\Debug\net5.0\AccountManagement.ApplicationContracts.pdb

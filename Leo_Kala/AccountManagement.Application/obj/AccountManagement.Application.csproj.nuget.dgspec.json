@@ -87,14 +87,14 @@
         }
       }
     },
-    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
-        "projectName": "AccountManagement.Application.Contracts",
-        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj",
+        "projectName": "AccountManagement.ApplicationContracts",
+        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj",
         "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Application.Contracts\\obj\\",
+        "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -129,6 +129,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -175,8 +181,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
-                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj"
               },
               "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
                 "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
@@ -193,12 +199,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -247,6 +247,9 @@
             "projectReferences": {
               "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj"
               }
             }
           }
