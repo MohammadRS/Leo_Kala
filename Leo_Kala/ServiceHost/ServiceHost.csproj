@@ -12,6 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Account\Register.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Account\Register.cshtml" />
     <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Create.cshtml" />
     <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Edit.cshtml" />
     <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Index.cshtml" />
@@ -1183,6 +1188,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01_LampshadeQuery\01_LampshadeQuery.csproj" />
+    <ProjectReference Include="..\AccountManagement.Infrastructure.Configuration\AccountManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\BlogManagement.Infrastructure.Configuration\BlogManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\DiscountManagement.Application.Contract\DiscountManagement.Application.Contract.csproj" />
@@ -1196,6 +1202,14 @@
   <ItemGroup>
     <Folder Include="wwwroot\AdminTheme\asset\plugins\jstree\themes\default\" />
     <Folder Include="wwwroot\Theme\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Account\Register.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Account\Register.cshtml" />
   </ItemGroup>
 
 </Project>

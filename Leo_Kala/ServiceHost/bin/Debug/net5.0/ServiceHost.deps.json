@@ -34,6 +34,7 @@
       "ServiceHost/1.0.0": {
         "dependencies": {
           "01_LampshadeQuery": "1.0.0",
+          "AccountManagement.Infrastructure.Configuration": "1.0.0",
           "BlogManagement.Application.Contracts": "1.0.0",
           "BlogManagement.Infrastructure.Configuration": "1.0.0",
           "DiscountManagement.Application.Contract": "1.0.0",
@@ -2484,6 +2485,43 @@
         },
         "compile": {
           "0_Framework.dll": {}
+        }
+      },
+      "AccountManagement.Domain/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Domain.dll": {}
+        },
+        "compile": {
+          "AccountManagement.Domain.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.Configuration/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Infrastructure.EFCore": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
+        },
+        "runtime": {
+          "AccountManagement.Infrastructure.Configuration.dll": {}
+        },
+        "compile": {
+          "AccountManagement.Infrastructure.Configuration.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
+        },
+        "runtime": {
+          "AccountManagement.Infrastructure.EFCore.dll": {}
+        },
+        "compile": {
+          "AccountManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "BlogManagement.Application/1.0.0": {
@@ -5769,6 +5807,21 @@
       "sha512": ""
     },
     "0_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Infrastructure.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

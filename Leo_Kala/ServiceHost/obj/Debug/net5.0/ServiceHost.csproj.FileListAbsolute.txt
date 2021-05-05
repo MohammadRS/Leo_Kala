@@ -227,12 +227,14 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\A
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Admin\Shop\Slides\Index.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Admin\_ViewImports.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Admin\_ViewStart.cshtml.g.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Blog\Article.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Blog\ArticleCategory.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Blog\Index.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductArchive\Index.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductCategory.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\ProductDetail.cshtml.g.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Register.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\CategoryMenu\Default.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Header\Default.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\LatestArticles\Default.cshtml.g.cs
@@ -380,6 +382,9 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\runtimes\win\
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\01_LampshadeQuery.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Domain.dll
@@ -401,6 +406,7 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\ShopManagemen
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\ShopManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\01_LampshadeQuery.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\AccountManagement.Infrastructure.Configuration.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.Configuration.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
@@ -410,6 +416,8 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\InventoryMana
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\ShopManagement.Configuration.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\AccountManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Application.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
@@ -425,4 +433,3 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\ShopManagemen
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.Views.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CopyComplete
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Blog\Article.cshtml.g.cs
