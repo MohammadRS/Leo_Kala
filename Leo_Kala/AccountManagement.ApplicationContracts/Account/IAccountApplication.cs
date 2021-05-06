@@ -1,7 +1,7 @@
 ﻿using _0_Framework.Application;
 using System.Collections.Generic;
 
-namespace AccountManagement.ApplicationContracts.Account
+namespace AccountManagement.Application.Contracts.Account
 {
     public interface IAccountApplication
     {

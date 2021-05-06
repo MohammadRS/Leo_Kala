@@ -1,6 +1,6 @@
 ﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
-using AccountManagement.ApplicationContracts.Account;
+using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
 using AccountManagement.Infrastructure.EFCore.Context;
 using System.Collections.Generic;
@@ -37,10 +37,12 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
             return _context.Accounts.Select(x => new EditAccount
             {
                 Id = x.Id,
+                FirstName = x.FirstName,
+                LastName = x.LastName,
                 Email = x.Email,
                 Mobile = x.Mobile,
-                Password = x.Password,
-                RoleId = x.RoleId
+                //Password = x.Password,
+                //RoleId = x.RoleId
             }).FirstOrDefault(x => x.Id == id);
         }
 
@@ -64,7 +66,7 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
                 LastName = x.LastName,
                 Mobile = x.Mobile,
                 ProfilePhoto = x.ProfilePhoto,
-                RoleId = x.RoleId,
+                //RoleId = x.RoleId,
                 Email = x.Email,
                 CreationDate = x.CreationDate.ToFarsi()
             });
@@ -81,8 +83,8 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
             if (!string.IsNullOrWhiteSpace(searchModel.Mobile))
                 query = query.Where(x => x.Mobile.Contains(searchModel.Mobile));
 
-            if (searchModel.RoleId > 0)
-                query = query.Where(x => x.RoleId == searchModel.RoleId);
+            //if (searchModel.RoleId > 0)
+            //    query = query.Where(x => x.RoleId == searchModel.RoleId);
 
             return query.OrderByDescending(x => x.Id).ToList();
         }

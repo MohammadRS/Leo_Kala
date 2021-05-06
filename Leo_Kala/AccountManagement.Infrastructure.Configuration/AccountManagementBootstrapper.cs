@@ -1,5 +1,5 @@
 ﻿using AccountManagement.Application;
-using AccountManagement.ApplicationContracts.Account;
+using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
 using AccountManagement.Infrastructure.EFCore.Context;
 using AccountManagement.Infrastructure.EFCore.Repository;

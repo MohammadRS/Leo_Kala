@@ -49,16 +49,12 @@ namespace AccountManagement.Infrastructure.EFCore.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(64)
-                        .HasColumnType("nvarchar(64)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("ProfilePhoto")
-                        .IsRequired()
                         .HasMaxLength(400)
                         .HasColumnType("nvarchar(400)");
-
-                    b.Property<long>("RoleId")
-                        .HasColumnType("bigint");
 
                     b.HasKey("Id");
 

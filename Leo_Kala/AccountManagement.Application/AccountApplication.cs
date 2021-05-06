@@ -1,5 +1,5 @@
 ﻿using _0_Framework.Application;
-using AccountManagement.ApplicationContracts.Account;
+using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
 using System.Collections.Generic;
 
@@ -49,7 +49,7 @@ namespace AccountManagement.Application
 
             var path = $"profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
-            account.Edit(command.FirstName, command.LastName, command.Email, command.Mobile, command.RoleId, picturePath);
+            account.Edit(command.FirstName, command.LastName, command.Email, command.Mobile, picturePath);
             _accountRepository.SaveChanges();
             return operation.Succedded();
         }
@@ -92,7 +92,7 @@ namespace AccountManagement.Application
             //  .ToList();
 
 
-            var authViewModel = new AuthViewModel(account.Id,account.RoleId,account.Email,account.Mobile);
+            var authViewModel = new AuthViewModel(account.Id,account.Email,account.Mobile);
             _authHelper.Signin(authViewModel);
             return operation.Succedded();
         }
@@ -112,7 +112,7 @@ namespace AccountManagement.Application
             var password = _passwordHasher.Hash(command.Password);
             var path = $"profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
-            var account = new Account( command.Email, password, command.Mobile, command.RoleId,picturePath);
+            var account = new Account(command.FirstName, command.LastName, command.Email, command.Mobile, password, picturePath);
             _accountRepository.Create(account);
             _accountRepository.SaveChanges();
             return operation.Succedded();

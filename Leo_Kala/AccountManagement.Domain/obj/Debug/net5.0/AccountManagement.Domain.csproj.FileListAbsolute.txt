@@ -3,7 +3,10 @@ E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\bin\Debug\net5.0\
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\bin\Debug\net5.0\ref\AccountManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csprojAssemblyReference.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfoInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.AssemblyInfo.cs
@@ -12,6 +15,3 @@ E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\obj\Debug\net5.0\
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\obj\Debug\net5.0\ref\AccountManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.ApplicationContracts.dll
-E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\bin\Debug\net5.0\AccountManagement.ApplicationContracts.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Domain\obj\Debug\net5.0\AccountManagement.Domain.csprojAssemblyReference.cache

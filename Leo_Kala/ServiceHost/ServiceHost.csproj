@@ -6,17 +6,20 @@
 
   <ItemGroup>
     <Compile Remove="Areas\**" />
+    <Compile Remove="Pages\Account\**" />
     <Content Remove="Areas\**" />
+    <Content Remove="Pages\Account\**" />
     <EmbeddedResource Remove="Areas\**" />
+    <EmbeddedResource Remove="Pages\Account\**" />
     <None Remove="Areas\**" />
+    <None Remove="Pages\Account\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\Account\Register.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\Account\Register.cshtml" />
+    <None Include="Pages\Admin\Accounts\Account\ChangePassword.cshtml" />
+    <None Include="Pages\Admin\Accounts\Account\Create.cshtml" />
+    <None Include="Pages\Admin\Accounts\Account\Edit.cshtml" />
+    <None Include="Pages\Admin\Accounts\Account\Index.cshtml" />
     <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Create.cshtml" />
     <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Edit.cshtml" />
     <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Index.cshtml" />
@@ -1202,14 +1205,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\AdminTheme\asset\plugins\jstree\themes\default\" />
     <Folder Include="wwwroot\Theme\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\Account\Register.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Pages\Account\Register.cshtml" />
   </ItemGroup>
 
 </Project>

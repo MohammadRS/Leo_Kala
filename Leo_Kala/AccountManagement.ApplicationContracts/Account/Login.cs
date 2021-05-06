@@ -1,4 +1,4 @@
-﻿namespace AccountManagement.ApplicationContracts.Account
+﻿namespace AccountManagement.Application.Contracts.Account
 {
     public class Login
     {

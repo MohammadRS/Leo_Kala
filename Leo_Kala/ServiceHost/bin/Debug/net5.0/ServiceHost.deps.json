@@ -2487,22 +2487,34 @@
           "0_Framework.dll": {}
         }
       },
-      "AccountManagement.ApplicationContracts/1.0.0": {
+      "AccountManagement.Application/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Application.Contracts": "1.0.0",
+          "AccountManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Application.dll": {}
+        },
+        "compile": {
+          "AccountManagement.Application.dll": {}
+        }
+      },
+      "AccountManagement.Application.Contracts/1.0.0": {
         "dependencies": {
           "0_Framework": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.4"
         },
         "runtime": {
-          "AccountManagement.ApplicationContracts.dll": {}
+          "AccountManagement.Application.Contracts.dll": {}
         },
         "compile": {
-          "AccountManagement.ApplicationContracts.dll": {}
+          "AccountManagement.Application.Contracts.dll": {}
         }
       },
       "AccountManagement.Domain/1.0.0": {
         "dependencies": {
           "0_Framework": "1.0.0",
-          "AccountManagement.ApplicationContracts": "1.0.0"
+          "AccountManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "AccountManagement.Domain.dll": {}
@@ -2513,6 +2525,7 @@
       },
       "AccountManagement.Infrastructure.Configuration/1.0.0": {
         "dependencies": {
+          "AccountManagement.Application": "1.0.0",
           "AccountManagement.Infrastructure.EFCore": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5"
@@ -5824,7 +5837,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AccountManagement.ApplicationContracts/1.0.0": {
+    "AccountManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

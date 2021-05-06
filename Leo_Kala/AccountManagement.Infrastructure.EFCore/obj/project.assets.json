@@ -1765,7 +1765,7 @@
           "bin/placeholder/0_Framework.dll": {}
         }
       },
-      "AccountManagement.ApplicationContracts/1.0.0": {
+      "AccountManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -1773,10 +1773,10 @@
           "Microsoft.AspNetCore.Http.Features": "5.0.4"
         },
         "compile": {
-          "bin/placeholder/AccountManagement.ApplicationContracts.dll": {}
+          "bin/placeholder/AccountManagement.Application.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AccountManagement.ApplicationContracts.dll": {}
+          "bin/placeholder/AccountManagement.Application.Contracts.dll": {}
         }
       },
       "AccountManagement.Domain/1.0.0": {
@@ -1784,7 +1784,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "0_Framework": "1.0.0",
-          "AccountManagement.ApplicationContracts": "1.0.0"
+          "AccountManagement.Application.Contracts": "1.0.0"
         },
         "compile": {
           "bin/placeholder/AccountManagement.Domain.dll": {}
@@ -6152,10 +6152,10 @@
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
     },
-    "AccountManagement.ApplicationContracts/1.0.0": {
+    "AccountManagement.Application.Contracts/1.0.0": {
       "type": "project",
-      "path": "../AccountManagement.ApplicationContracts/AccountManagement.ApplicationContracts.csproj",
-      "msbuildProject": "../AccountManagement.ApplicationContracts/AccountManagement.ApplicationContracts.csproj"
+      "path": "../AccountManagement.ApplicationContracts/AccountManagement.Application.Contracts.csproj",
+      "msbuildProject": "../AccountManagement.ApplicationContracts/AccountManagement.Application.Contracts.csproj"
     },
     "AccountManagement.Domain/1.0.0": {
       "type": "project",

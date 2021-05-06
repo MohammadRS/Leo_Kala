@@ -157,12 +157,12 @@
         }
       }
     },
-    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj": {
+    "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj",
-        "projectName": "AccountManagement.ApplicationContracts",
-        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj",
+        "projectUniqueName": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.Application.Contracts.csproj",
+        "projectName": "AccountManagement.Application.Contracts",
+        "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\P\\.nuget\\packages\\",
         "outputPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\obj\\",
         "projectStyle": "PackageReference",
@@ -251,8 +251,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj": {
-                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.Application.Contracts.csproj"
               },
               "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
                 "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
@@ -318,8 +318,8 @@
               "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\0_Framework\\0_Framework.csproj"
               },
-              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj": {
-                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.ApplicationContracts.csproj"
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.ApplicationContracts\\AccountManagement.Application.Contracts.csproj"
               }
             }
           }

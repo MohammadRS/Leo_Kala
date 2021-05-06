@@ -9,7 +9,7 @@
       "AccountManagement.Domain/1.0.0": {
         "dependencies": {
           "0_Framework": "1.0.0",
-          "AccountManagement.ApplicationContracts": "1.0.0"
+          "AccountManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "AccountManagement.Domain.dll": {}
@@ -502,13 +502,13 @@
           "0_Framework.dll": {}
         }
       },
-      "AccountManagement.ApplicationContracts/1.0.0": {
+      "AccountManagement.Application.Contracts/1.0.0": {
         "dependencies": {
           "0_Framework": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.4"
         },
         "runtime": {
-          "AccountManagement.ApplicationContracts.dll": {}
+          "AccountManagement.Application.Contracts.dll": {}
         }
       }
     }
@@ -860,7 +860,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AccountManagement.ApplicationContracts/1.0.0": {
+    "AccountManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
