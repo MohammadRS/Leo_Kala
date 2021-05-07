@@ -6,13 +6,9 @@
 
   <ItemGroup>
     <Compile Remove="Areas\**" />
-    <Compile Remove="Pages\Account\**" />
     <Content Remove="Areas\**" />
-    <Content Remove="Pages\Account\**" />
     <EmbeddedResource Remove="Areas\**" />
-    <EmbeddedResource Remove="Pages\Account\**" />
     <None Remove="Areas\**" />
-    <None Remove="Pages\Account\**" />
   </ItemGroup>
 
   <ItemGroup>

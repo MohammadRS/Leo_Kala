@@ -1,5 +1,5 @@
 ﻿@*@model List<_01_LampshadeQuery.Contracts.Slide.SlideQueryModel>*@
-
+@inject _0_Framework.Application.IAuthHelper AuthHelper
 <header class="header-main">
     <div class="container-main">
         <div>
@@ -50,7 +50,10 @@
                         <div class="header-account text-left">
                             <div class="d-block">
                                 <div class="account-box">
-                                    @*<div class="nav-account d-block pl">
+
+                                    @if (AuthHelper.IsAuthenticated())
+                                    {
+                                        <div class="nav-account d-block pl">
                                             <span class="icon-account">
                                                 <img src="~/Theme/assets/images/man.png" class="avator">
                                             </span>
@@ -67,20 +70,25 @@
                                                         <a href="#" class="account-link">تنظیمات</a>
                                                     </li>
                                                     <li class="account-item">
-                                                        <a href="#" class="account-link">خروج</a>
+                                                        <a asp-page="/Authentication/Signin" asp-page-handler="Logout" class="account-link">خروج</a>
                                                     </li>
                                                 </ul>
                                             </div>
-                                        </div>*@
-                                    <div class="nav-account d-block pl">
-                                        <a asp-page="~/Account/Register">
-                                            <span class="title-account">ثبت نام</span>
-                                        </a>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="nav-account d-block pl">
+                                            <a asp-page="Authentication/Signup">
+                                                <span class="title-account">ثبت نام</span>
+                                            </a>
 
-                                        <a href="~/authentication/signin">
-                                            <span class="title-account">ورود</span>
-                                        </a>
-                                    </div>
+                                            <a asp-page="Authentication/Signin">
+                                                <span class="title-account">ورود</span>
+                                            </a>
+                                        </div>
+                                    }
+
                                 </div>
                             </div>
                         </div>
@@ -108,8 +116,13 @@
                                     </a>
                                 </li>
                                 <li id="nav-menu-item" class="menu-item">
-                                    <a href="#" class="current-link-menu category-link">
+                                    <a asp-page="/Account" class="current-link-menu category-link">
                                         حساب من
+                                    </a>
+                                </li>
+                                <li id="nav-menu-item" class="menu-item">
+                                    <a asp-page="Admin/Index" class="current-link-menu category-link">
+                                        پنل ادمین
                                     </a>
                                 </li>
                                 <div class="divider-space-card d-block">

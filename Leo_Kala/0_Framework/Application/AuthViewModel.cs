@@ -8,20 +8,19 @@ namespace _0_Framework.Application
         //public long RoleId { get; set; }
         //public string Role { get; set; }
         public string Email { get; set; }
-        public string Mobile { get; set; }
+        //public string Mobile { get; set; }
         //public List<int> Permissions { get; set; }
 
         public AuthViewModel()
         {
         }
 
-        public AuthViewModel(long id,string email, string mobile
+        public AuthViewModel(long id,string email
             )
         {
             Id = id;
             //RoleId = roleId;
             Email = email;
-            Mobile = mobile;
         }
     }
 }

@@ -441,3 +441,5 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.d
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ref\ServiceHost.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Authentication\Signin.cshtml.g.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Authentication\Signup.cshtml.g.cs

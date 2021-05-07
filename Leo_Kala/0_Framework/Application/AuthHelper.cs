@@ -98,6 +98,28 @@ namespace _0_Framework.Application
             //_contextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
             //    new ClaimsPrincipal(claimsIdentity),
             //    authProperties);
+
+            //var permissions = JsonConvert.SerializeObject(account.Permissions);
+            var claims = new List<Claim>
+            {
+                new Claim("AccountId", account.Id.ToString()),
+                new Claim(ClaimTypes.Name, account.Email),
+                //new Claim(ClaimTypes.Role, account.RoleId.ToString()),
+                //new Claim("Username", account.Username), // Or Use ClaimTypes.NameIdentifier
+                //new Claim("permissions", permissions),
+                //new Claim("Mobile", account.Mobile)
+            };
+
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+            var authProperties = new AuthenticationProperties
+            {
+                ExpiresUtc = DateTimeOffset.UtcNow.AddDays(2)
+            };
+
+            _contextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity),
+                authProperties);
         }
 
         public void SignOut()
