@@ -54,6 +54,12 @@ namespace ServiceHost
 
             services.AddHttpContextAccessor();
 
+            #region html encoder
+
+            services.AddSingleton<HtmlEncoder>(HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.BasicLatin, UnicodeRanges.Arabic }));
+
+            #endregion
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 options.CheckConsentNeeded = context => true;
@@ -63,8 +69,8 @@ namespace ServiceHost
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, o =>
                 {
-                    o.LoginPath = new PathString("/Account");
-                    o.LogoutPath = new PathString("/Account");
+                    o.LoginPath = new PathString("/Authentication/Signin");
+                    o.LogoutPath = new PathString("/Authentication/Signin");
                     o.AccessDeniedPath = new PathString("/AccessDenied");
                 });
 

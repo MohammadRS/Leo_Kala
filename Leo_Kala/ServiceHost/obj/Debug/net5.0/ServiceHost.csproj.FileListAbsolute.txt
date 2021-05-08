@@ -443,3 +443,7 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.p
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Authentication\Signin.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Authentication\Signup.cshtml.g.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\_SiteMessages.cshtml.g.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Admin\Accounts\Role\Create.cshtml.g.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Admin\Accounts\Role\Edit.cshtml.g.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Admin\Accounts\Role\Index.cshtml.g.cs

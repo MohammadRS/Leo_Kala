@@ -26,26 +26,20 @@
     <!-- main-style---------------------------------->
     <link rel="stylesheet" href="~/Theme/assets/css/main.css">
     <link rel="stylesheet" href="~/Theme/assets/css/responsive.css">
+
+    <link rel="stylesheet" href="~/Theme/assets/css/notifications.css">
 </head>
 <body>
-
-    <!-- header-------------------------------->
-    <!--<header class="header-main">
-        <partial name="_Header" />
-    </header>-->
-    <!-- header-------------------------------->
 
     @await Component.InvokeAsync("Header")
 
 
     @RenderBody();
 
-
-    <!-- footer------------------------------------------->
     <footer class="footer-main-site">
         <partial name="_Footer" />
     </footer>
-    <!-- footer------------------------------------------->
+
 
     <script src="~/Theme/assets/js/vendor/jquery-3.2.1.min.js"></script>
     <script src="~/Theme/assets/js/vendor/bootstrap.js"></script>
@@ -56,12 +50,23 @@
     <!-- main js---------------------------------------------------->
     <script src="~/Theme/assets/js/main.js"></script>
 
+    <script src="~/Theme/assets/js/notifications.js"></script>
+    <script src="~/Theme/assets/js/custom.js"></script>
+    
+    <partial name="_SiteMessages" />
+
+    @RenderSection("scripts", false)
+
+
 
     <script>
         $(document).ready(function () {
             updateCart();
         });
     </script>
+
+
+
 
 </body>
 <!-- file js---------------------------------------------------->

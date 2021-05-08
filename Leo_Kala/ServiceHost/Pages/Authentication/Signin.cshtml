@@ -4,12 +4,13 @@
     ViewData["Title"] = "ورود";
     Layout = null;
 }
+
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>ورود</title>
     <!-- font---------------------------------------->
     <link rel="stylesheet" href="~/Theme/assets/css/vendor/font-awesome.min.css">
     <link rel="stylesheet" href="~/Theme/assets/css/vendor/materialdesignicons.css">
@@ -47,12 +48,12 @@
                                         <form method="post" class="form-account text-right">
                                             <div class="form-account-title">
                                                 <label>ایمیل</label>
-                                                <input type="text" class="number-email-input" name="email">
+                                                <input type="text" class="number-email-input" name="email" id="Email">
                                             </div>
                                             <div class="form-account-title">
                                                 <label for="password">رمز عبور</label>
                                                 <a href="#" class="account-link-password">رمز خود را فراموش کرده ام</a>
-                                                <input type="password" class="password-input" name="password">
+                                                <input type="password" class="password-input" name="password" id="Password">
                                             </div>
                                             <div class="form-auth-row">
                                                 <label for="#" class="ui-checkbox mt-1">
@@ -62,7 +63,7 @@
                                                 <label for="remember" class="remember-me mr-0">مرا به خاطر بسپار</label>
                                             </div>
                                             <div class="form-row-account">
-                                                <button class="btn btn-primary btn-login" type="submit">ورود به لئو کالا</button>
+                                                <button id="success" class="btn btn-primary btn-login" type="submit">ورود به لئو کالا</button>
                                             </div>
                                         </form>
                                     </div>
@@ -84,16 +85,19 @@
     <!-- scroll_Progress------------------------->
 
 </body>
-<!-- file js---------------------------------------------------->
+
 <script src="~/Theme/assets/js/vendor/jquery-3.2.1.min.js"></script>
 <script src="~/Theme/assets/js/vendor/bootstrap.js"></script>
-<!-- plugin----------------------------------------------------->
 <script src="~/Theme/assets/js/vendor/owl.carousel.min.js"></script>
 <script src="~/Theme/assets/js/vendor/jquery.countdown.js"></script>
 <script src="~/Theme/assets/js/vendor/ResizeSensor.min.js"></script>
 <script src="~/Theme/assets/js/vendor/theia-sticky-sidebar.min.js"></script>
 <script src="~/Theme/assets/js/vendor/wNumb.js"></script>
 <script src="~/Theme/assets/js/vendor/nouislider.min.js"></script>
-<!-- main js---------------------------------------------------->
 <script src="~/Theme/assets/js/main.js"></script>
+
+
+<link href="~/Theme/assets/Sweetalert2/sweetalert2.min.css" rel="stylesheet" />
+<script src="~/Theme/assets/Sweetalert2/sweetalert2.min.js"></script>
+
 </html>

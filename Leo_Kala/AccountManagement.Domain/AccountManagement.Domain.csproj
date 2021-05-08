@@ -9,8 +9,4 @@
     <ProjectReference Include="..\AccountManagement.ApplicationContracts\AccountManagement.Application.Contracts.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="RoleAgg\" />
-  </ItemGroup>
-
 </Project>

@@ -1,4 +1,5 @@
 ﻿using AccountManagement.Domain.AccountAgg;
+using AccountManagement.Domain.RoleAgg;
 using AccountManagement.Infrastructure.EFCore.Mappings;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -17,6 +18,7 @@ namespace AccountManagement.Infrastructure.EFCore.Context
         }
 
         public DbSet<Account> Accounts { get; set; }
+        public DbSet<Role> Roles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
