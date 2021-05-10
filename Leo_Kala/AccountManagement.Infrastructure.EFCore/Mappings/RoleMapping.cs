@@ -1,11 +1,6 @@
 ﻿using AccountManagement.Domain.RoleAgg;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AccountManagement.Infrastructure.EFCore.Mappings
 {
@@ -19,6 +14,14 @@ namespace AccountManagement.Infrastructure.EFCore.Mappings
             builder.Property(x => x.Name)
                 .HasMaxLength(256)
                 .IsRequired();
+
+            builder.OwnsMany(x => x.Permissions, navigationBuilder =>
+            {
+                navigationBuilder.HasKey(x => x.Id);
+                navigationBuilder.ToTable("RolePermissions");
+                navigationBuilder.Ignore(x => x.Name);
+                navigationBuilder.WithOwner(x => x.Role);
+            });
         }
     }
 }

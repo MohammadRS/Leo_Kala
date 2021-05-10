@@ -1,14 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+using _0_Framework.Infrastructure;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ShopManagement.Configuration.Permissions;
 
 namespace ServiceHost.Pages.Admin
 {
     public class IndexModel : PageModel
     {
+        [NeedsPermission(ShopPermissions.Admin)]
         public void OnGet()
         {
         }

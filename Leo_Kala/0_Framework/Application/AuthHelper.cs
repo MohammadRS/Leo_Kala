@@ -25,12 +25,13 @@ namespace _0_Framework.Application
             if (!IsAuthenticated())
                 return result;
 
-            //var claims = _contextAccessor.HttpContext.User.Claims.ToList();
-            //result.Id = long.Parse(claims.FirstOrDefault(x => x.Type == "AccountId").Value);
-            //result.Username = claims.FirstOrDefault(x => x.Type == "Username").Value;
-            //result.RoleId = long.Parse(claims.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value);
-            //result.Fullname = claims.FirstOrDefault(x => x.Type == ClaimTypes.Name).Value;
-            //result.Role = Roles.GetRoleBy(result.RoleId);
+            var claims = _contextAccessor.HttpContext.User.Claims.ToList();
+            result.Id = long.Parse(claims.FirstOrDefault(x => x.Type == "AccountId").Value);
+            //result.Email = claims.FirstOrDefault(x => x.Type == "Email").Value;
+            result.Email = claims.FirstOrDefault(x => x.Type == ClaimTypes.Email).Value;
+            result.RoleId = long.Parse(claims.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value);
+            
+            result.Role = Roles.GetRoleBy(result.RoleId);
             return result;
         }
 
@@ -77,36 +78,14 @@ namespace _0_Framework.Application
 
         public void Signin(AuthViewModel account)
         {
-            //var permissions = JsonConvert.SerializeObject(account.Permissions);
-            ////var claims = new List<Claim>
-            ////{
-            ////    new Claim("AccountId", account.Id.ToString()),
-            ////    new Claim(ClaimTypes.Name, account.Fullname),
-            ////    new Claim(ClaimTypes.Role, account.RoleId.ToString()),
-            ////    new Claim("Username", account.Username), // Or Use ClaimTypes.NameIdentifier
-            ////    new Claim("permissions", permissions),
-            ////    new Claim("Mobile", account.Mobile)
-            ////};
-
-            //var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-
-            //var authProperties = new AuthenticationProperties
-            //{
-            //    ExpiresUtc = DateTimeOffset.UtcNow.AddDays(1)
-            //};
-
-            //_contextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-            //    new ClaimsPrincipal(claimsIdentity),
-            //    authProperties);
-
-            //var permissions = JsonConvert.SerializeObject(account.Permissions);
+            var permissions = JsonConvert.SerializeObject(account.Permissions);
             var claims = new List<Claim>
             {
                 new Claim("AccountId", account.Id.ToString()),
-                new Claim(ClaimTypes.Name, account.Email),
-                //new Claim(ClaimTypes.Role, account.RoleId.ToString()),
+                new Claim(ClaimTypes.Email, account.Email),
+                new Claim(ClaimTypes.Role, account.RoleId.ToString()),
                 //new Claim("Username", account.Username), // Or Use ClaimTypes.NameIdentifier
-                //new Claim("permissions", permissions),
+                new Claim("permissions", permissions),
                 //new Claim("Mobile", account.Mobile)
             };
 
@@ -114,7 +93,7 @@ namespace _0_Framework.Application
 
             var authProperties = new AuthenticationProperties
             {
-                ExpiresUtc = DateTimeOffset.UtcNow.AddDays(2)
+                ExpiresUtc = DateTimeOffset.UtcNow.AddDays(1)
             };
 
             _contextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,

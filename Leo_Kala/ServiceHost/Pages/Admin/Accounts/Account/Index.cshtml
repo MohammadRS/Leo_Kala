@@ -40,10 +40,10 @@
                         <input class="form-control" asp-for="SearchModel.Email" placeholder="نام ایمیل">
                     </div>
                     <div class="form-group">
-                        @*<label class="sr-only" asp-for="SearchModel.RoleId"></label>
+                        <label class="sr-only" asp-for="SearchModel.RoleId"></label>
                         <select class="form-control" asp-for="SearchModel.RoleId" asp-items="Model.Roles">
                             <option value="0">نقش ...</option>
-                        </select>*@
+                        </select>
                     </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
                     <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
@@ -88,7 +88,7 @@
                                     <td>@item.LastName</td>
                                     <td>@item.Email</td>
                                     <td>@item.Mobile</td>
-                                    <td>@*@item.Role*@مدیر</td>
+                                    <td>@item.Role</td>
                                     <td>@item.CreationDate</td>
                                     <td>
                                         <a class="btn btn-warning waves-effect waves-light m-b-5"

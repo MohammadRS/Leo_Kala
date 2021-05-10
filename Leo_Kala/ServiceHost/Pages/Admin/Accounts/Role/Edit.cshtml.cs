@@ -38,8 +38,8 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Role
                             Group = group
                         };
 
-                        //if (Command.MappedPermissions.Any(x => x.Code == permission.Code))
-                        //    item.Selected = true;
+                        if (Command.MappedPermissions.Any(x => x.Code == permission.Code))
+                            item.Selected = true;
 
                         Permissions.Add(item);
                     }

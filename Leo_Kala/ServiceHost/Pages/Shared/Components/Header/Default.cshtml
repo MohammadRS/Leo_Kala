@@ -1,5 +1,8 @@
-﻿@*@model List<_01_LampshadeQuery.Contracts.Slide.SlideQueryModel>*@
-@inject _0_Framework.Application.IAuthHelper AuthHelper
+﻿@using ShopManagement.Configuration.Permissions;
+@inject _0_Framework.Application.IAuthHelper AuthHelper;
+@{
+    var currentAccout = AuthHelper.CurrentAccountInfo();
+}
 <header class="header-main">
     <div class="container-main">
         <div>
@@ -121,10 +124,12 @@
                                     </a>
                                 </li>
                                 <li id="nav-menu-item" class="menu-item">
-                                    <a asp-page="Admin/Index" class="current-link-menu category-link">
+                                    <a Permission="@ShopPermissions.Admin" asp-page="Admin/Index" class="current-link-menu category-link">
                                         پنل ادمین
                                     </a>
                                 </li>
+
+
                                 <div class="divider-space-card d-block">
                                     <div class="header-cart-basket">
                                         <a href="#" class="cart-basket-box cart-basket-box-bg">

@@ -1,4 +1,5 @@
 using AccountManagement.Application.Contracts.Account;
+using AccountManagement.Application.Contracts.Role;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -12,27 +13,21 @@ namespace ServiceHost.Pages.Admin.Accounts.Account
         public string Message { get; set; }
         public AccountSearchModel SearchModel;
         public List<AccountViewModel> Accounts;
-        //public SelectList Roles;
+        public SelectList Roles;
 
-        //private readonly IRoleApplication _roleApplication;
-        //private readonly IAccountApplication _accountApplication;
-
-        //public IndexModel(IAccountApplication accountApplication, IRoleApplication roleApplication)
-        //{
-        //    _roleApplication = roleApplication;
-        //    _accountApplication = accountApplication;
-        //}
-
+        private readonly IRoleApplication _roleApplication;
         private readonly IAccountApplication _accountApplication;
 
-        public IndexModel(IAccountApplication accountApplication)
+        public IndexModel(IAccountApplication accountApplication, IRoleApplication roleApplication)
         {
+            _roleApplication = roleApplication;
             _accountApplication = accountApplication;
         }
 
+
         public void OnGet(AccountSearchModel searchModel)
         {
-            //Roles = new SelectList(_roleApplication.List(), "Id", "Name");
+            Roles = new SelectList(_roleApplication.List(), "Id", "Name");
             Accounts = _accountApplication.Search(searchModel);
         }
 
@@ -40,7 +35,7 @@ namespace ServiceHost.Pages.Admin.Accounts.Account
         {
             var command = new RegisterAccount
             {
-                //Roles = _roleApplication.List()
+                Roles = _roleApplication.List()
             };
             return Partial("./Create", command);
         }
@@ -54,7 +49,7 @@ namespace ServiceHost.Pages.Admin.Accounts.Account
         public IActionResult OnGetEdit(long id)
         {
             var account = _accountApplication.GetDetails(id);
-            //account.Roles = _roleApplication.List();
+            account.Roles = _roleApplication.List();
             return Partial("Edit", account);
         }
 

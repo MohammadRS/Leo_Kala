@@ -16,4 +16,3 @@ E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application\obj\Debug\net5.
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application\obj\Debug\net5.0\ref\BlogManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application\obj\Debug\net5.0\BlogManagement.Application.csprojAssemblyReference.cache

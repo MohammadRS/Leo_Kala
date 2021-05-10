@@ -1,7 +1,9 @@
 ﻿using _0_Framework.Application;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
+using AccountManagement.Domain.RoleAgg;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AccountManagement.Application
 {
@@ -11,11 +13,13 @@ namespace AccountManagement.Application
         private readonly IPasswordHasher _passwordHasher;
         private readonly IAccountRepository _accountRepository;
         private readonly IAuthHelper _authHelper;
+        private readonly IRoleRepository _roleRepository;
 
         public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher,
-            IFileUploader fileUploader, IAuthHelper authHelper)
+            IFileUploader fileUploader, IAuthHelper authHelper, IRoleRepository roleRepository)
         {
             _authHelper = authHelper;
+            _roleRepository = roleRepository;
             _fileUploader = fileUploader;
             _passwordHasher = passwordHasher;
             _accountRepository = accountRepository;
@@ -49,7 +53,7 @@ namespace AccountManagement.Application
 
             var path = $"profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
-            account.Edit(command.FirstName, command.LastName, command.Email, command.Mobile, picturePath);
+            account.Edit(command.FirstName, command.LastName, command.Email, command.Mobile, command.RoleId, picturePath);
             _accountRepository.SaveChanges();
             return operation.Succedded();
         }
@@ -87,13 +91,13 @@ namespace AccountManagement.Application
             if (!result.Verified)
                 return operation.Failed(ApplicationMessages.WrongUserPass);
 
-            //var permissions = _roleRepository.Get(account.RoleId)
-            //  .Permissions
-            //  .Select(x => x.Code)
-            //  .ToList();
+            var permissions = _roleRepository.Get(account.RoleId)
+              .Permissions
+              .Select(x => x.Code)
+              .ToList();
 
 
-            var authViewModel = new AuthViewModel(account.Id,account.Email);
+            var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Email, permissions);
             _authHelper.Signin(authViewModel);
             return operation.Succedded();
 
@@ -114,7 +118,7 @@ namespace AccountManagement.Application
             var password = _passwordHasher.Hash(command.Password);
             var path = $"profilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
-            var account = new Account(command.FirstName, command.LastName, command.Email, command.Mobile, password, picturePath);
+            var account = new Account(command.FirstName, command.LastName, command.Email, command.Mobile, password, command.RoleId, picturePath);
             _accountRepository.Create(account);
             _accountRepository.SaveChanges();
             return operation.Succedded();
