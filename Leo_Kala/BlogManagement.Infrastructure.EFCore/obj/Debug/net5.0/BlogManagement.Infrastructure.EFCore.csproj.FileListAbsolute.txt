@@ -10,7 +10,6 @@ E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.EFCore\bin\D
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.EFCore\bin\Debug\net5.0\BlogManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.EFCore\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.EFCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.EFCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.EFCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.EFCore\obj\Debug\net5.0\BlogManagement.Infrastructure.EFCore.AssemblyInfo.cs

@@ -38,6 +38,7 @@ namespace ServiceHost
             var connectionString = Configuration.GetConnectionString("LeoKala");
             #endregion
 
+            #region Ioc 
             ShopManagementBootstrapper.Configure(services, connectionString);
             DiscountManagementBootstrapper.Configure(services, connectionString);
             InventoryManagementBootstrapper.Configure(services, connectionString);
@@ -52,7 +53,7 @@ namespace ServiceHost
             //services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
             //services.AddTransient<ISmsService, SmsService>();
             //services.AddTransient<IEmailService, EmailService>();
-
+            #endregion
 
             services.AddHttpContextAccessor();
 
@@ -76,43 +77,11 @@ namespace ServiceHost
                     o.AccessDeniedPath = new PathString("/AccessDenied");
                 });
 
-
-            services.AddAuthorization(options =>
-            {
-                options.AddPolicy("AdminArea",
-                    builder => builder.RequireRole(new List<string> { Roles.Administrator, Roles.ContentUploader }));
-
-                options.AddPolicy("Shop",
-                    builder => builder.RequireRole(new List<string> { Roles.Administrator }));
-
-                options.AddPolicy("Discount",
-                    builder => builder.RequireRole(new List<string> { Roles.Administrator }));
-
-                options.AddPolicy("Account",
-                    builder => builder.RequireRole(new List<string> { Roles.Administrator }));
-            });
-
             services.AddCors(options => options.AddPolicy("MyPolicy", builder =>
                 builder
                     .WithOrigins("https://localhost:44366/")
                     .AllowAnyHeader()
                     .AllowAnyMethod()));
-
-            services.AddRazorPages()
-                .AddMvcOptions(options => options.Filters.Add<SecurityPageFilter>())
-                .AddRazorPagesOptions(options =>
-                {
-                    options.Conventions.AuthorizeAreaFolder("Admin", "/", "AdminArea");
-                    options.Conventions.AuthorizeAreaFolder("Admin", "/Shop", "Shop");
-                    options.Conventions.AuthorizeAreaFolder("Admin", "/Discounts", "Discount");
-                    options.Conventions.AuthorizeAreaFolder("Admin", "/Accounts", "Account");
-                })
-                .AddNewtonsoftJson();
-            //.AddApplicationPart(typeof(ProductController).Assembly)
-            //.AddApplicationPart(typeof(InventoryController).Assembly)
-
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
