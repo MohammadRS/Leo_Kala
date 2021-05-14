@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using _01_LampshadeQuery.Contracts;
 using _01_LampshadeQuery.Contracts.Product;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,15 +14,19 @@ namespace ServiceHost.Pages
     public class CartModel : PageModel
     {
         public List<CartItem> CartItems;
+        public Cart Cart;
         public const string CookieName = "cart-items";
         private readonly IProductQuery _productQuery;
+        private readonly ICartCalculatorService _cartCalculatorService;
 
-        public CartModel(IProductQuery productQuery)
+        public CartModel(IProductQuery productQuery, ICartCalculatorService cartCalculatorService)
         {
             CartItems = new List<CartItem>();
+            Cart = new Cart();
+            _cartCalculatorService = cartCalculatorService;
             _productQuery = productQuery;
         }
-
+        
         public void OnGet()
         {
             var serializer = new JavaScriptSerializer();
@@ -31,6 +36,7 @@ namespace ServiceHost.Pages
                 item.CalculateTotalItemPrice();
 
             CartItems = _productQuery.CheckInventoryStatus(cartItems);
+            Cart = _cartCalculatorService.ComputeCart(cartItems);
         }
 
         public IActionResult OnGetRemoveFromCart(long id)
@@ -45,5 +51,25 @@ namespace ServiceHost.Pages
             Response.Cookies.Append(CookieName, serializer.Serialize(cartItems), options);
             return RedirectToPage("Cart");
         }
+
+        public IActionResult OnGetGoToCheckOut()
+        {
+            var serializer = new JavaScriptSerializer();
+            var value = Request.Cookies[CookieName];
+            var cartItems = serializer.Deserialize<List<CartItem>>(value);
+            foreach (var item in cartItems)
+            {
+                item.TotalItemPrice = item.UnitPrice * item.Count;
+            }
+
+            CartItems = _productQuery.CheckInventoryStatus(cartItems);
+
+            //if (CartItems.Any(x => !x.IsInStock))
+            //    return RedirectToPage("/Cart");
+            //return RedirectToPage("/Checkout");
+
+            return RedirectToPage(CartItems.Any(x => !x.IsInStock) ? "/Cart" : "/Checkout");
+        }
+
     }
 }

@@ -1168,6 +1168,19 @@
     <None Include="wwwroot\lib\jquery\dist\jquery.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\Theme\assets\js\vendor\bootstrap-slider.min.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\bootstrap.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\countdown.min.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\jquery-3.2.1.min.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\jquery.countdown.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\jquery.ez-plus.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\jquery.nice-select.min.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\lightgallery-all.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\nouislider.min.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\owl.carousel.min.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\ResizeSensor.min.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\theia-sticky-sidebar.min.js" />
+    <None Include="wwwroot\Theme\assets\js\vendor\wNumb.js" />
   </ItemGroup>
 
   <ItemGroup>

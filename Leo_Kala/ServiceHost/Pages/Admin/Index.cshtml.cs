@@ -4,9 +4,9 @@ using ShopManagement.Configuration.Permissions;
 
 namespace ServiceHost.Pages.Admin
 {
+    [NeedsPermission(ShopPermissions.Admin)]
     public class IndexModel : PageModel
     {
-        [NeedsPermission(ShopPermissions.Admin)]
         public void OnGet()
         {
         }
