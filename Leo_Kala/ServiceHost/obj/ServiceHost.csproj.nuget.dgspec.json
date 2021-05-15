@@ -1984,6 +1984,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\AccountManagement.Infrastructure.EFCore\\AccountManagement.Infrastructure.EFCore.csproj"
+              },
               "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
                 "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }

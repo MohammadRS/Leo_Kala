@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "HaZ68hRjA1+9w9EgZX73f/BVsWd51vLUe8FOm8uMG9qMFLPcV/RcnyasH+/p4UFz/tO/+Q/bf59jsfhPg/iwXA==",
-  "success": true,
+  "dgSpecHash": "nfjdWXKM4S4k5dd2BcKXh08cGmf1vGm/Koou16bgqhE9fUnT9B6kUBW32cBl2d5vK7CBUjMFcroa+kyI/emfzw==",
+  "success": false,
   "projectFilePath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\P\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -124,5 +124,24 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore from 5.0.5 to 5.0.4. Reference the package directly from the project to select a different version. \r\n ShopManagement.Infrastructure.EFCore -> AccountManagement.Infrastructure.EFCore -> Microsoft.EntityFrameworkCore (>= 5.0.5) \r\n ShopManagement.Infrastructure.EFCore -> Microsoft.EntityFrameworkCore (>= 5.0.4)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.SqlServer from 5.0.5 to 5.0.4. Reference the package directly from the project to select a different version. \r\n ShopManagement.Infrastructure.EFCore -> AccountManagement.Infrastructure.EFCore -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.5) \r\n ShopManagement.Infrastructure.EFCore -> Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.4)",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
