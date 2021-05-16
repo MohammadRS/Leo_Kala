@@ -35,7 +35,7 @@
                             </div>
                         </div>
                         <div class="middle-container">
-                            <form action="#" class="form-checkout">
+                            <form method="post" class="form-checkout">
                                 <div class="col2-set" id="customer-details">
                                     <div class="col-12">
                                         <div class="billing-fields mt-4">
@@ -192,33 +192,21 @@
                                         </tfoot>
                                     </table>
                                     <ul class="checkout-payment-methods">
+
                                         <li class="checkout-payment-method-item d-block">
-                                            <label for="#" class="outline-radio">
-                                                <input type="radio" name="payment_method" id="payment-option-online" checked>
-                                                <span class="outline-radio-check"></span>
-                                            </label>
-                                            <label for="#" class="shipping-totals-title-row">
-                                                <div class="shipping-totals-title">افزایش اعتبار و پرداخت از کیف پول</div>
-                                            </label>
+                                            @foreach (var method in PaymentMethod.GetList())
+                                            {
+                                                <label for="payment_@method.Id" class="outline-radio">
+                                                    <input type="radio" name="paymentMethod" id="payment_@method.Id" value="@method.Id" @(PaymentMethod.GetList().First().Id == method.Id ? "checked" : "")>
+                                                    <span class="outline-radio-check"></span>
+                                                </label>
+
+                                                <label for="payment_@method.Id" class="shipping-totals-title-row" data-method="@method.Id" style="display:@(PaymentMethod.GetList().First().Id == method.Id ? "block" : "none")">
+                                                    <div class="shipping-totals-title">@method.Name</div>
+                                                </label>
+                                            }
                                         </li>
-                                        <li class="checkout-payment-method-item d-block">
-                                            <label for="#" class="outline-radio">
-                                                <input type="radio" name="payment_method" id="payment-option-online">
-                                                <span class="outline-radio-check"></span>
-                                            </label>
-                                            <label for="#" class="shipping-totals-title-row">
-                                                <div class="shipping-totals-title">پرداخت اینترنتی هوشمند</div>
-                                            </label>
-                                        </li>
-                                        <li class="checkout-payment-method-item d-block">
-                                            <label for="#" class="outline-radio">
-                                                <input type="radio" name="payment_method" id="payment-option-online">
-                                                <span class="outline-radio-check"></span>
-                                            </label>
-                                            <label for="#" class="shipping-totals-title-row">
-                                                <div class="shipping-totals-title">پرداخت هنگام دریافت</div>
-                                            </label>
-                                        </li>
+
                                     </ul>
                                     <div class="form-auth-row">
                                         <label for="#" class="ui-checkbox mt-1">
@@ -227,7 +215,7 @@
                                         </label>
                                         <label for="remember" class="remember-me mr-0"><a href="#">حریم خصوصی</a> و <a href="#">شرایط قوانین </a>استفاده از سرویس های سایت دیجی‌اسمارت را مطالعه نموده و با کلیه موارد آن موافقم <abbr class="required" title="ضروری" style="color:red;">*</abbr></label>
                                     </div>
-                                    <button class="btn-Order btn btn-primary mt-4 mb-3" type="submit">ثبت سفارش</button>
+                                    <button asp-page-handler="Pay" class="btn-Order btn btn-primary mt-4 mb-3" type="submit">ثبت سفارش</button>
                                 </div>
                             </form>
                         </div>

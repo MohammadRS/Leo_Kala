@@ -1,3 +1,7 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.csproj.CoreCompileInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Domain.deps.json
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\bin\Debug\net5.0\ref\InventoryManagement.Domain.dll
@@ -9,10 +13,6 @@ E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\bin\Debug\net5.
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.csprojAssemblyReference.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
-E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.AssemblyInfoInputs.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.AssemblyInfo.cs
-E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.csproj.CoreCompileInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.csproj.CopyComplete
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Domain\obj\Debug\net5.0\ref\InventoryManagement.Domain.dll

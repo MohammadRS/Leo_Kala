@@ -1,3 +1,8 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.csprojAssemblyReference.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.deps.json
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.runtimeconfig.json
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.runtimeconfig.dev.json
@@ -10,13 +15,8 @@ E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\bi
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\bin\Debug\net5.0\0_Framework.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.AssemblyInfo.cs
-E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.csproj.CopyComplete
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\AccountManagement.Infrastructure.EFCore.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.genruntimeconfig.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Infrastructure.EFCore\obj\Debug\net5.0\AccountManagement.Infrastructure.EFCore.csprojAssemblyReference.cache

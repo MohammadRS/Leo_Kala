@@ -1,3 +1,7 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.CoreCompileInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.deps.json
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\bin\Debug\net5.0\ref\BlogManagement.Domain.dll
@@ -7,10 +11,6 @@ E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\bin\Debug\net5.0\Blo
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csprojAssemblyReference.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
-E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfoInputs.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.AssemblyInfo.cs
-E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.CoreCompileInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.csproj.CopyComplete
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\BlogManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Domain\obj\Debug\net5.0\ref\BlogManagement.Domain.dll

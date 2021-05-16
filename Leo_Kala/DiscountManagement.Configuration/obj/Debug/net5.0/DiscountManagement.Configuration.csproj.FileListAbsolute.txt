@@ -3,6 +3,9 @@ E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\ref\DiscountManagement.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Configuration.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
@@ -14,6 +17,9 @@ E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\bin\Debug\net5.0\ShopManagement.Domain.pdb

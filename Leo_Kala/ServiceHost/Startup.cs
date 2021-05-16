@@ -1,4 +1,5 @@
 using _0_Framework.Application;
+using _0_Framework.Application.ZarinPal;
 using _0_Framework.Infrastructure;
 using AccountManagement.Configuration;
 using BlogManagement.Infrastructure.Configuration;
@@ -50,12 +51,18 @@ namespace ServiceHost
             services.AddSingleton<IPasswordHasher, PasswordHasher>();
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IAuthHelper, AuthHelper>();
-            //services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
+            services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
             //services.AddTransient<ISmsService, SmsService>();
             //services.AddTransient<IEmailService, EmailService>();
             #endregion
 
-            services.AddHttpContextAccessor();
+            //services.Configure<CookiePolicyOptions>(options =>
+            //{
+            //    options.CheckConsentNeeded = context => true;
+            //    options.MinimumSameSitePolicy = SameSiteMode.Lax;
+            //});
+
+            //services.AddHttpContextAccessor();
 
             #region html encoder
 

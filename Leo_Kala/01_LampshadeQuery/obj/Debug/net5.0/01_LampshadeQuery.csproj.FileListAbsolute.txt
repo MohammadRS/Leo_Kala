@@ -1,8 +1,15 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csproj.CoreCompileInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\01_LampshadeQuery.deps.json
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\01_LampshadeQuery.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\ref\01_LampshadeQuery.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\01_LampshadeQuery.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
@@ -20,6 +27,9 @@ E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\Discoun
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\AccountManagement.Infrastructure.EFCore.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
@@ -29,10 +39,6 @@ E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\Invento
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\bin\Debug\net5.0\ShopManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csprojAssemblyReference.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.GeneratedMSBuildEditorConfig.editorconfig
-E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.AssemblyInfoInputs.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.AssemblyInfo.cs
-E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csproj.CoreCompileInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.csproj.CopyComplete
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\01_LampshadeQuery.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\01_LampshadeQuery\obj\Debug\net5.0\ref\01_LampshadeQuery.dll
