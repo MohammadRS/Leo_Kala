@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using _0_Framework.Application;
-//using _0_Framework.Application.Sms;
 using Microsoft.Extensions.Configuration;
 using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.OrderAgg;
-//using ShopManagement.Domain.Services;
+using ShopManagement.Domain.Services;
 
 namespace ShopManagement.Application
 {
@@ -13,15 +12,15 @@ namespace ShopManagement.Application
         private readonly IAuthHelper _authHelper;
         private readonly IConfiguration _configuration;
         private readonly IOrderRepository _orderRepository;
-        //private readonly IShopInventoryAcl _shopInventoryAcl;
-        //private readonly ISmsService _smsService;
-        //private readonly IShopAccountAcl _shopAccountAcl;
+        private readonly IShopInventoryAcl _shopInventoryAcl;
 
-        public OrderApplication(IOrderRepository orderRepository, IAuthHelper authHelper, IConfiguration configuration)
+        public OrderApplication(IOrderRepository orderRepository, IAuthHelper authHelper, IConfiguration configuration,
+            IShopInventoryAcl shopInventoryAcl)
         {
             _orderRepository = orderRepository;
             _authHelper = authHelper;
             _configuration = configuration;
+            _shopInventoryAcl = shopInventoryAcl;
         }
 
         public long PlaceOrder(Cart cart)
@@ -68,6 +67,7 @@ namespace ShopManagement.Application
 
             //_smsService.Send(mobile,
             //    $"{name} گرامی سفارش شما با شماره پیگیری {issueTrackingNo} با موفقیت پرداخت شد و ارسال خواهد شد.");
+            //return issueTrackingNo;
             return null;
         }
 

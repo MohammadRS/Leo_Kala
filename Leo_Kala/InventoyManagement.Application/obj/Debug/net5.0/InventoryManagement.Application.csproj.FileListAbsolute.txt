@@ -18,3 +18,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\obj\Debug\n
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoyManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csprojAssemblyReference.cache

@@ -1985,6 +1985,20 @@
         "runtime": {
           "bin/placeholder/ShopManagement.Infrastructure.EFCore.dll": {}
         }
+      },
+      "ShopManagement.Infrastructure.InventoryAcl/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "InventoryManagement.Application.Contract": "1.0.0",
+          "ShopManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Infrastructure.InventoryAcl.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Infrastructure.InventoryAcl.dll": {}
+        }
       }
     }
   },
@@ -6386,6 +6400,11 @@
       "type": "project",
       "path": "../ShopManagement.Infrastructure.EFCore/ShopManagement.Infrastructure.EFCore.csproj",
       "msbuildProject": "../ShopManagement.Infrastructure.EFCore/ShopManagement.Infrastructure.EFCore.csproj"
+    },
+    "ShopManagement.Infrastructure.InventoryAcl/1.0.0": {
+      "type": "project",
+      "path": "../ShopManagement.Infrastructure.InventoryAcl/ShopManagement.Infrastructure.InventoryAcl.csproj",
+      "msbuildProject": "../ShopManagement.Infrastructure.InventoryAcl/ShopManagement.Infrastructure.InventoryAcl.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6396,7 +6415,8 @@
       "ShopManagement.Application >= 1.0.0",
       "ShopManagement.Application.Contracts >= 1.0.0",
       "ShopManagement.Domain >= 1.0.0",
-      "ShopManagement.Infrastructure.EFCore >= 1.0.0"
+      "ShopManagement.Infrastructure.EFCore >= 1.0.0",
+      "ShopManagement.Infrastructure.InventoryAcl >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6447,6 +6467,9 @@
             },
             "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+            },
+            "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.InventoryAcl\\ShopManagement.Infrastructure.InventoryAcl.csproj": {
+              "projectPath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ShopManagement.Infrastructure.InventoryAcl\\ShopManagement.Infrastructure.InventoryAcl.csproj"
             }
           }
         }
@@ -6481,7 +6504,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

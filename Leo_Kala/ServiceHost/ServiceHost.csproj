@@ -31,6 +31,8 @@
     <None Include="Pages\Admin\Inventory\Index.cshtml" />
     <None Include="Pages\Admin\Inventory\OperationLog.cshtml" />
     <None Include="Pages\Admin\Inventory\Reduce.cshtml" />
+    <None Include="Pages\Admin\Shop\Orders\Index.cshtml" />
+    <None Include="Pages\Admin\Shop\Orders\Items.cshtml" />
     <None Include="Pages\Admin\Shop\ProductPictures\Create.cshtml" />
     <None Include="Pages\Admin\Shop\ProductPictures\Edit.cshtml" />
     <None Include="Pages\Admin\Shop\ProductPictures\Index.cshtml" />

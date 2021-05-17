@@ -23,8 +23,7 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
             return _context.Accounts.Select(x => new AccountViewModel
             {
                 Id = x.Id,
-                FirstName = x.FirstName,
-                LastName = x.LastName
+              Email = x.Email
             }).ToList();
         }
 

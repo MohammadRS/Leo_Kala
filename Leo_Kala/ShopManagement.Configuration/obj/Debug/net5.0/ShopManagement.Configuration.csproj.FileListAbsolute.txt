@@ -70,3 +70,5 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.pdb

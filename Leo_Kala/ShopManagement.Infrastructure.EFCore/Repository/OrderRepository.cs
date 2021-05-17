@@ -81,7 +81,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             var orders = query.OrderByDescending(x => x.Id).ToList();
             foreach (var order in orders)
             {
-                order.AccountFullName = accounts.FirstOrDefault(x => x.Id == order.AccountId)?.Email;
+                order.AccountEmail = accounts.FirstOrDefault(x => x.Id == order.AccountId)?.Email;
                 order.PaymentMethod = PaymentMethod.GetBy(order.PaymentMethodId).Name;
             }
 
