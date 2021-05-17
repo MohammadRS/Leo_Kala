@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aeNmB/SSMi96ckRBfIpZiPLBrdUDWXNbZ0dzXfFaSnXq61nrp/FfQFUdb4k5mJqmFzEXY97qjfsipqK2nNpS8w==",
+  "dgSpecHash": "HeH4zwIMzMsMDWZlv16p+tiIyRLFFcWH+iFUiIra1knQpVl04EEVXhLxzaZ4UkGzTfxycZVz1LybEGqJIUJtYg==",
   "success": true,
   "projectFilePath": "E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -196,12 +196,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\Practice Project\\Leo_Kala\\Leo_Kala\\ServiceHost\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
