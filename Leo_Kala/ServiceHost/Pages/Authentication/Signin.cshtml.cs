@@ -17,7 +17,7 @@ namespace ServiceHost.Pages.Authentication
         [TempData]
         public string LoginMessage { get; set; }
 
-        
+        public Login Login { get; set; }
 
         private readonly IAccountApplication _accountApplication;
 
@@ -26,21 +26,18 @@ namespace ServiceHost.Pages.Authentication
             _accountApplication = accountApplication;
         }
         public void OnGet()
-        {
+        {           
         }
 
         public IActionResult OnPost(Login command)
         {
             var result = _accountApplication.Login(command);
             if (result.IsSuccedded)
-            {
-                TempData[SuccessMessage] = "ورود شما با موفقیت انجام شد";
                 return RedirectToPage("/Index");
-            }
 
 
-            //LoginMessage = result.Message;
-            return RedirectToPage("/Signin");
+            LoginMessage = result.Message;
+            return RedirectToPage("Signin");
         }
         public IActionResult OnGetLogout()
         {

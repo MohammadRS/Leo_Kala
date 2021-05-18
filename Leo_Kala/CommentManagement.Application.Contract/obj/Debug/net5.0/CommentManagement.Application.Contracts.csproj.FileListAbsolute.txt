@@ -1,0 +1,15 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\bin\Debug\net5.0\CommentManagement.Application.Contracts.deps.json
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\bin\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contracts.csprojAssemblyReference.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contracts.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contracts.csproj.CopyComplete
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\obj\Debug\net5.0\ref\CommentManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Application.Contract\obj\Debug\net5.0\CommentManagement.Application.Contracts.pdb

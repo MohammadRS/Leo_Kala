@@ -18,3 +18,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.InventoryAcl
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.InventoryAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.InventoryAcl\obj\Debug\net5.0\ref\ShopManagement.Infrastructure.InventoryAcl.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.InventoryAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.InventoryAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.csprojAssemblyReference.cache

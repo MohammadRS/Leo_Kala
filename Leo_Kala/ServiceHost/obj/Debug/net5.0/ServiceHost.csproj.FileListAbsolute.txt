@@ -456,3 +456,13 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\A
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Admin\Shop\Orders\Items.cshtml.g.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.Configuration.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.Configuration.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb

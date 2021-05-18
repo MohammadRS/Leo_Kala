@@ -14,3 +14,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\o
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\ref\InventoryManagement.Application.Contract.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csprojAssemblyReference.cache

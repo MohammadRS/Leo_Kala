@@ -12,3 +12,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\D
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Debug\net5.0\ref\BlogManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Debug\net5.0\BlogManagement.Application.Contracts.csprojAssemblyReference.cache

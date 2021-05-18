@@ -16,3 +16,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Application\obj\Debug\ne
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Application\obj\Debug\net5.0\ref\AccountManagement.Application.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Application\obj\Debug\net5.0\AccountManagement.Application.csprojAssemblyReference.cache
