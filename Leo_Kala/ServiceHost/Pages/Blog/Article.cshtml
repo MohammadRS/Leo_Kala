@@ -63,117 +63,78 @@
                                     <h2 class="comments-title">
                                         <i class="fa fa-comment-o"></i>
                                         نظرات کاربران
-                                        <p class="count-comment">253 نظر</p>
+                                        <p class="count-comment">(@Model.Article.Comments.Count) نظر</p>
                                     </h2>
                                     <ol class="comment-list">
-                                        <li class="comment-even">
-                                            <div class="comment-body">
-                                                <header class="comment-meta">
-                                                    <div class="comment-author">
-                                                        <img src="assets/images/man.png" class="avator">
-                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
+                                        @foreach (var comment in Model.Article.Comments)
+                                        {
+                                            <li class="comment-even" id="comment-@comment.Id">
+                                                <div class="comment-body">
+                                                    <header class="comment-meta">
+                                                        <div class="comment-author">
+                                                            <img src="assets/images/man.png" class="avator">
+                                                            توسط @comment.Name در تاریخ @comment.CreationDate
+                                                        </div>
+                                                    </header>
+                                                    <p>@comment.Message</p>
+                                                    <div class="reply text-left">
+                                                        <a href="#postComment" onclick='$("#commentParentId").val(@comment.Id)' class="comment-reply-link">پاسخ دادن</a>
                                                     </div>
-                                                </header>
-                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
-                                                <div class="reply text-left">
-                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
+                                                    @if (comment.ParentId > 0)
+                                                    {
+                                                        <span>در پاسخ به: </span><a href="#comment-@comment.ParentId">@comment.parentName</a>
+                                                    }
                                                 </div>
-                                            </div>
-                                        </li>
-                                        <li class="comment-even">
-                                            <div class="comment-body">
-                                                <header class="comment-meta">
-                                                    <div class="comment-author">
-                                                        <img src="assets/images/man.png" class="avator">
-                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
-                                                    </div>
-                                                </header>
-                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
-                                                <div class="reply text-left">
-                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="comment-even">
-                                            <div class="comment-body">
-                                                <header class="comment-meta">
-                                                    <div class="comment-author">
-                                                        <img src="assets/images/man.png" class="avator">
-                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
-                                                    </div>
-                                                </header>
-                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
-                                                <div class="reply text-left">
-                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="comment-even">
-                                            <div class="comment-body">
-                                                <header class="comment-meta">
-                                                    <div class="comment-author">
-                                                        <img src="assets/images/man.png" class="avator">
-                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
-                                                    </div>
-                                                </header>
-                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
-                                                <div class="reply text-left">
-                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="comment-even">
-                                            <div class="comment-body">
-                                                <header class="comment-meta">
-                                                    <div class="comment-author">
-                                                        <img src="assets/images/man.png" class="avator">
-                                                        توسط حسن شجاعی در تاریخ 14 اردیبهشت ۱۳۹۹
-                                                    </div>
-                                                </header>
-                                                <p>لوریم ایپسوم به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به‌عنوان عنصری از ترکیب‌بندی برای پُر کردن صفحه و ارائهٔ اولیهٔ شکل ظاهری و کلیِ طرح سفارش‌گرفته‌شده‌استفاده می‌کند، تا ازنظر گرافیکی نشانگر چگونگی نوع و اندازهٔ قلم و ظاهرِ متن باشد</p>
-                                                <div class="reply text-left">
-                                                    <a href="#" class="comment-reply-link">پاسخ دادن</a>
-                                                </div>
-                                            </div>
-                                        </li>
+                                            </li>
+                                        }
                                     </ol>
                                     <div class="form-comment">
-                                        <div class="col-md-12 col-sm-12">
-                                            <div class="form-ui">
-                                                <div class="row">
-                                                    <div class="col-12">
+                                        <form method="post">
+                                            <div class="col-md-12 col-sm-12">
+                                                <div class="form-ui">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <br>
+                                                            <br>
+                                                            <div class="form-row-title mb-2"> نام شما (اجباری)</div>
+                                                            <div class="form-row">
+                                                                <input name="name" class="input-ui pr-2" type="text" placeholder=" نام خود را بنویسید">
+                                                            </div>
+                                                            <br>
+                                                            <div class="form-row-title mb-2"> ایمیل شما (اجباری)</div>
+                                                            <div class="form-row">
+                                                                <input name="email" class="input-ui pr-2" type="text" placeholder=" ایمیل خود را بنویسید">
+                                                            </div>
+                                                            <br>
+                                                            <div class="form-row-title mb-2">عنوان نظر شما (اجباری)</div>
+                                                            <div class="form-row">
+                                                                <input name="title" class="input-ui pr-2" type="text" placeholder="عنوان نظر خود را بنویسید">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 mt-5">
+                                                            <div class="form-row-title mb-2">متن نظر شما (اجباری)</div>
+                                                            <div class="form-row">
+                                                                <textarea name="message" id="messaeg" class="input-ui pr-2 pt-2" rows="5" placeholder="متن خود را بنویسید" style="height:120px;"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <input type="hidden" name="ownerRecordId" value="@Model.Article.Id" />
+                                                        <input type="hidden" name="articleSlug" value="@Model.Article.Slug" />
+                                                        <input type="hidden" name="parentId" id="commentParentId" value="" />
                                                         <br>
                                                         <br>
-                                                        <div class="form-row-title mb-2"> نام شما (اجباری)</div>
-                                                        <div class="form-row">
-                                                            <input class="input-ui pr-2" type="text" placeholder=" نام خود را بنویسید">
-                                                        </div>
                                                         <br>
-                                                        <div class="form-row-title mb-2">عنوان نظر شما (اجباری)</div>
-                                                        <div class="form-row">
-                                                            <input class="input-ui pr-2" type="text" placeholder="عنوان نظر خود را بنویسید">
+                                                        <div class="col-12 mt-5 px-0">
+                                                            <button type="submit" class="btn comment-submit-button">
+                                                                ثبت نظر
+                                                            </button>
                                                         </div>
-                                                    </div>
-                                                    <div class="col-12 mt-5">
-                                                        <div class="form-row-title mb-2">متن نظر شما (اجباری)</div>
-                                                        <div class="form-row">
-                                                            <textarea class="input-ui pr-2 pt-2" rows="5" placeholder="متن خود را بنویسید" style="height:120px;"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <br>
-                                                    <br>
-                                                    <br>
-                                                    <div class="col-12 mt-5 px-0">
-                                                        <button class="btn comment-submit-button">
-                                                            ثبت نظر
-                                                        </button>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
+
                         </section>
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-12 pr mt-3 sticky-sidebar">

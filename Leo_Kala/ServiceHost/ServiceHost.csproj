@@ -19,6 +19,7 @@
     <None Include="Pages\Admin\Accounts\Role\Create.cshtml" />
     <None Include="Pages\Admin\Accounts\Role\Edit.cshtml" />
     <None Include="Pages\Admin\Accounts\Role\Index.cshtml" />
+    <None Include="Pages\Admin\Comments\Index.cshtml" />
     <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Create.cshtml" />
     <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Edit.cshtml" />
     <None Include="Pages\Admin\Discounts\ColleagueDiscounts\Index.cshtml" />

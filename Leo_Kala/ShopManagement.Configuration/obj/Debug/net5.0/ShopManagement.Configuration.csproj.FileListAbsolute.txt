@@ -72,3 +72,9 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\ShopManagement.Infrastructure.InventoryAcl.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb

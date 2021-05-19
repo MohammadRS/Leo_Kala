@@ -466,3 +466,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManage
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Domain.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ServiceHost\obj\Debug\net5.0\Razor\Pages\Admin\Comments\Index.cshtml.g.cs

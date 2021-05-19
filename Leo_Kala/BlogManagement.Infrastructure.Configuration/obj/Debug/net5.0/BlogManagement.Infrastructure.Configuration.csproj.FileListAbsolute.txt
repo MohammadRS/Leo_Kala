@@ -47,3 +47,9 @@ E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuratio
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\BlogManagement.Infrastructure.Configuration.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuration\obj\Debug\net5.0\BlogManagement.Infrastructure.Configuration.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Infrastructure.Configuration\bin\Debug\net5.0\CommentManagement.Infrastructure.EFCore.pdb

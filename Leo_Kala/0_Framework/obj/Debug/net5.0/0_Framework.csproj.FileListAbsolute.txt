@@ -20,3 +20,4 @@ E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\bin\Debug\net5.0\0_Framework.p
 E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Debug\net5.0\0_Framework.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Debug\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Debug\net5.0\0_Framework.csprojAssemblyReference.cache
