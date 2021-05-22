@@ -1,0 +1,4 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.AccountAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.AccountAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.AccountAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Infrastructure.AccountAcl\obj\Debug\net5.0\ShopManagement.Infrastructure.AccountAcl.csproj.CoreCompileInputs.cache

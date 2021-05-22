@@ -64,7 +64,6 @@ namespace AccountManagement.Application
             return new AccountViewModel()
             {
                 FirstName = account.FirstName,
-                LastName = account.LastName,
                 Mobile = account.Mobile
             };
         }

@@ -1,4 +1,6 @@
 using _0_Framework.Application;
+using _0_Framework.Application.Email;
+using _0_Framework.Application.Sms;
 using _0_Framework.Application.ZarinPal;
 using _0_Framework.Infrastructure;
 using AccountManagement.Configuration;
@@ -55,8 +57,8 @@ namespace ServiceHost
             services.AddTransient<IFileUploader, FileUploader>();
             services.AddTransient<IAuthHelper, AuthHelper>();
             services.AddTransient<IZarinPalFactory, ZarinPalFactory>();
-            //services.AddTransient<ISmsService, SmsService>();
-            //services.AddTransient<IEmailService, EmailService>();
+            services.AddTransient<ISmsService, SmsService>();
+            services.AddTransient<IEmailService, EmailService>();
             #endregion
 
             //services.Configure<CookiePolicyOptions>(options =>

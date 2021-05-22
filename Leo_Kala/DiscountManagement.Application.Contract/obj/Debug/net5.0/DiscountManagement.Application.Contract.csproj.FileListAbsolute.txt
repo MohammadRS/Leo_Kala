@@ -2,16 +2,3 @@ E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\ob
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfo.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CoreCompileInputs.cache
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.deps.json
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\bin\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CopyComplete
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.dll
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\obj\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csprojAssemblyReference.cache
