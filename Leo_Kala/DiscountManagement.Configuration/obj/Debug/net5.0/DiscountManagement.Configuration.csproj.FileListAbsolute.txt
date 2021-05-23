@@ -1,3 +1,4 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.csprojAssemblyReference.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\DiscountManagement.Configuration\obj\Debug\net5.0\DiscountManagement.Configuration.AssemblyInfo.cs

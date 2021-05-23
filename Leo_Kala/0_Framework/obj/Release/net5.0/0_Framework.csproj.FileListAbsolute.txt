@@ -1,0 +1,12 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Release\net5.0\0_Framework.csprojAssemblyReference.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Release\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Release\net5.0\0_Framework.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Release\net5.0\0_Framework.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Release\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\bin\Release\net5.0\0_Framework.deps.json
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\bin\Release\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\bin\Release\net5.0\ref\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\bin\Release\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Release\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Release\net5.0\ref\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\0_Framework\obj\Release\net5.0\0_Framework.pdb

@@ -2,3 +2,16 @@ E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\o
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.AssemblyInfoInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.AssemblyInfo.cs
 E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\bin\Debug\net5.0\InventoryManagement.Application.Contract.deps.json
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\bin\Debug\net5.0\ref\InventoryManagement.Application.Contract.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csprojAssemblyReference.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.csproj.CopyComplete
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\ref\InventoryManagement.Application.Contract.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\InventoryManagement.Application.Contract\obj\Debug\net5.0\InventoryManagement.Application.Contract.pdb

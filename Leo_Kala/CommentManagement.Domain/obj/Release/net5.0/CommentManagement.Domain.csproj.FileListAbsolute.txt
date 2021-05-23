@@ -1,0 +1,17 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\obj\Release\net5.0\CommentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\obj\Release\net5.0\CommentManagement.Domain.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\obj\Release\net5.0\CommentManagement.Domain.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\obj\Release\net5.0\CommentManagement.Domain.csproj.CoreCompileInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\bin\Release\net5.0\CommentManagement.Domain.deps.json
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\bin\Release\net5.0\CommentManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\bin\Release\net5.0\ref\CommentManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\bin\Release\net5.0\CommentManagement.Domain.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\bin\Release\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\bin\Release\net5.0\CommentManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\bin\Release\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\bin\Release\net5.0\CommentManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\obj\Release\net5.0\CommentManagement.Domain.csprojAssemblyReference.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\obj\Release\net5.0\CommentManagement.Domain.csproj.CopyComplete
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\obj\Release\net5.0\CommentManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\obj\Release\net5.0\ref\CommentManagement.Domain.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\CommentManagement.Domain\obj\Release\net5.0\CommentManagement.Domain.pdb

@@ -17,6 +17,7 @@ C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0
 C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.dll
 C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll
 C:\Users\P\Desktop\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.csprojAssemblyReference.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfoInputs.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.AssemblyInfo.cs

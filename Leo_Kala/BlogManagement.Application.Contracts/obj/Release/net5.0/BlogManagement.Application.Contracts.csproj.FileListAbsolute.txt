@@ -1,0 +1,14 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Release\net5.0\BlogManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Release\net5.0\BlogManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Release\net5.0\BlogManagement.Application.Contracts.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Release\net5.0\BlogManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\bin\Release\net5.0\BlogManagement.Application.Contracts.deps.json
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\bin\Release\net5.0\BlogManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\bin\Release\net5.0\ref\BlogManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\bin\Release\net5.0\BlogManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\bin\Release\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\bin\Release\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Release\net5.0\BlogManagement.Application.Contracts.csproj.CopyComplete
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Release\net5.0\BlogManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Release\net5.0\ref\BlogManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\BlogManagement.Application.Contracts\obj\Release\net5.0\BlogManagement.Application.Contracts.pdb
