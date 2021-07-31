@@ -154,3 +154,4 @@ function changeCartItemCount(id, totalId, count) {
         }
     });
 }
+

@@ -1,0 +1,17 @@
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\bin\Debug\net5.0\AccountManagement.Presentation.Api.deps.json
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\bin\Debug\net5.0\AccountManagement.Presentation.Api.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\bin\Debug\net5.0\ref\AccountManagement.Presentation.Api.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\bin\Debug\net5.0\AccountManagement.Presentation.Api.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\bin\Debug\net5.0\0_Framework.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\bin\Debug\net5.0\AccountManagement.Application.Contracts.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\bin\Debug\net5.0\0_Framework.pdb
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\obj\Debug\net5.0\AccountManagement.Presentation.Api.csprojAssemblyReference.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\obj\Debug\net5.0\AccountManagement.Presentation.Api.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\obj\Debug\net5.0\AccountManagement.Presentation.Api.AssemblyInfoInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\obj\Debug\net5.0\AccountManagement.Presentation.Api.AssemblyInfo.cs
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\obj\Debug\net5.0\AccountManagement.Presentation.Api.csproj.CoreCompileInputs.cache
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\obj\Debug\net5.0\AccountManagement.Presentation.Api.csproj.CopyComplete
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\obj\Debug\net5.0\AccountManagement.Presentation.Api.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\obj\Debug\net5.0\ref\AccountManagement.Presentation.Api.dll
+E:\Practice Project\Leo_Kala\Leo_Kala\AccountManagement.Presentention.Api\obj\Debug\net5.0\AccountManagement.Presentation.Api.pdb

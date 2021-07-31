@@ -16,22 +16,56 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <form method="post">
+                        <fieldset>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label asp-for="Command.Name" class="control-label">نام</label>
-                                        <input type="text" class="form-control" asp-for="Command.Name">
+                                        <input type="text" class="form-control" data-bind="value: Name">
                                         <span asp-validation-for="Command.Name" class="error"></span>
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-info waves-effect waves-light">ایجاد</button>
+                            <button type="submit" data-bind="click: SaveRole" class="btn btn-info waves-effect waves-light">ایجاد</button>
                             <a asp-page="./Index" class="btn btn-dark waves-effect waves-light m-b-5">بازگشت</a>
-                        </form>
+                        </fieldset>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    var urlPath = window.location.pathname;
+    $(function () {
+        ko.applyBindings(CreateRole);
+    });
+
+    var CreateRole = {
+        debugger;
+        Name: ko.observable(),
+        /*Permissions: ko.observable(),*/
+        SaveRole: function () {
+            $.ajax({
+                url: 'https://localhost:44366/api/Role',
+                type: 'post',
+                dataType: 'json',
+                data: ko.toJSON(this),
+                contentType: 'application/json',
+                success: function (result) {
+                },
+                error: function (err) {
+                    if (err.responseText == "Creation Failed") { window.location.href = '/Role/Index/'; }
+                    else {
+                        alert("Status:" + err.responseText);
+                        window.location.href = '/Role/Index/';;
+                    }
+                },
+                complete: function () {
+                    window.location.href = '/Role/Index/';
+                }
+            });
+        }
+    }
+</script>

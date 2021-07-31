@@ -27,7 +27,6 @@ E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\bin\Debug\net5.0\0_F
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
-E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csprojAssemblyReference.cache
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
 E:\Practice Project\Leo_Kala\Leo_Kala\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll

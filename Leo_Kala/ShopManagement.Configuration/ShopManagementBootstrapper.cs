@@ -46,8 +46,8 @@ namespace ShopManagement.Configuration
             services.AddTransient<ISlideApplication, SlideApplication>();
             services.AddTransient<ISlideRepository, SlideRepository>();
 
-            services.AddTransient<IOrderRepository, OrderRepository>();
-            services.AddTransient<IOrderApplication, OrderApplication>();
+            //services.AddTransient<IOrderRepository, OrderRepository>();
+            //services.AddTransient<IOrderApplication, OrderApplication>();
 
             services.AddSingleton<ICartService, CartService>();
 
